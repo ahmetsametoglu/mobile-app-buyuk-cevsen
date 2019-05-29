@@ -1,5 +1,7 @@
 {
   "name": "buyuk-cevsen",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
