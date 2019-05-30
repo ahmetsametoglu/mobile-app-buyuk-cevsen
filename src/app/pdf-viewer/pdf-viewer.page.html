@@ -1,9 +1,13 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>pdf-viewer</ion-title>
+    <ion-title color="danger">
+      Buyuk Cevsen
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <pdf-viewer [ngStyle]="{'margin-top': pdfMarginTop+'%', 'margin-left': pdfMarginLeft+'%'}" *ngIf="!!currentPage"
+    #pdf_viewer src="../../assets/data/private/buyuk-cevsen.pdf" [zoom]="zoom" (page-rendered)="pageRendered()"
+    [render-text]="false" [show-all]="false" [original-size]="false" [page]="currentPage"></pdf-viewer>
 </ion-content>
