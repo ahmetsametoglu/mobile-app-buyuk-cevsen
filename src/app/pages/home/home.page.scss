@@ -1,8 +1,15 @@
 .finger-swipe {
 	position: absolute;
-	z-index: 1;
+	z-index: 10;
 	width: 100%;
 	touch-action:unset !important;
+}
+
+.menu{
+	position: absolute;
+	z-index: 20;
+	width: 100%;
+	height: 100%;
 }
 
 pdf-viewer {

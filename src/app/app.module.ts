@@ -16,10 +16,8 @@ import { ContentMenuComponent } from './components/content-menu/content-menu.com
 @NgModule({
   declarations: [
     AppComponent,
-    PopupZoomComponent,
-    SettingsMenuComponent,
-    ContentMenuComponent],
-  entryComponents: [PopupZoomComponent],
+  ],
+
   imports: [
     BrowserModule,
     IonicModule.forRoot({
