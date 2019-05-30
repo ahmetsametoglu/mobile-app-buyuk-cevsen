@@ -1,0 +1,131 @@
+.pdf-content {
+    z-index: 1000;
+    position: absolute;
+    // height: 100%;
+    width: 100%;
+    background-color: rgba(31, 126, 27, 0.842);
+
+
+    .page-item {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        border-bottom: whitesmoke solid 0.6px;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+    .content-header {
+        padding: 10px;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-transform: uppercase;
+        color: white;
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .page-number {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        flex-shrink: 0;
+        width: 60px;
+        padding: 5px;
+        text-align: center;
+
+        .number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            justify-items: center;
+        }
+
+        span {
+            font-size: 12px;
+            color: rgb(224, 224, 224);
+        }
+    }
+
+    .page-title {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+
+        .title {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            font-size: 18px;
+            color: maroon
+        }
+
+        .description {
+            font-size: 12px;
+            color: rgb(224, 224, 224);
+        }
+    }
+
+
+    // ion-item {
+    //     color: #fff;
+    //     background-color: transparent;
+
+    //     ion-label {
+    //         margin-top: 10px;
+    //         margin-bottom: 6px;
+    //     }
+    // }
+
+    // .page-number {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //     margin-top: 0px !important;
+    //     margin-bottom: 0px !important;
+
+    //     h2 {
+    //         text-align: center;
+    //         flex-grow: 11;
+    //         font-size: 25px;
+    //         padding: 0;
+    //         margin: 0;
+    //         color: rgb(180, 182, 161);
+    //     }
+
+    //     span {
+    //         text-align: center;
+    //         flex-grow: 1;
+    //         font-size: 10px;
+    //         color: black;
+    //     }
+
+    // }
+
+    // p {
+    //     color: rgb(143, 5, 5);
+    // }
+
+
+
+    // .close-button {
+    //     z-index: 1100;
+    //     padding-right: 20px;
+    //     top: 50px;
+    //     width: 100%;
+    //     display: flex;
+    //     justify-content: flex-end;
+    //     align-items: center;
+    //     position: fixed;
+
+    //     button {
+    //         border: 2px solid;
+    //     }
+    // }
+}
