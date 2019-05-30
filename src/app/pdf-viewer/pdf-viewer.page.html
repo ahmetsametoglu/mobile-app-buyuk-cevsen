@@ -12,5 +12,6 @@
   </div>
   <pdf-viewer [ngStyle]="{'margin-top': pdfMarginTop+'%', 'margin-left': pdfMarginLeft+'%'}" *ngIf="!!currentPage"
     #pdf_viewer src="../../assets/data/private/buyuk-cevsen.pdf" [zoom]="zoom" (page-rendered)="pageRendered()"
-    [render-text]="false" [show-all]="false" [original-size]="false" [page]="currentPage?.pageNumber || 0"></pdf-viewer>
+    [render-text]="false" [show-all]="false" [original-size]="false" [page]="!!currentPage ? currentPage.pageNumber : 1">
+  </pdf-viewer>
 </ion-content>
