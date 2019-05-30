@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouteReuseStrategy } from '@angular/router';
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
@@ -20,11 +21,13 @@ import { ContentMenuComponent } from './components/content-menu/content-menu.com
 
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     IonicModule.forRoot({
       mode: 'ios'
     }),
     AppRoutingModule,
-    IonicStorageModule.forRoot()],
+    IonicStorageModule.forRoot()
+  ],
   providers: [
     StatusBar,
     SplashScreen,
