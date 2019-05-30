@@ -9,3 +9,11 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+
+.zoom-popover .popover-content {
+    width: 90vw;
+    min-width: 320px;
+    max-width: 500px;
+    // background-color: rgba(100, 202, 32, 0.8);
+}
