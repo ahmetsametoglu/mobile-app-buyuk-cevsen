@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PdfService } from '../services/pdf.service';
 
 @Component({
   selector: 'app-pdf-viewer',
@@ -10,7 +11,8 @@ export class PdfViewerPage implements OnInit {
   pdfMarginTop = 0;
   pdfMarginLeft = 0;
   currentPage = 1;
-  constructor() { }
+
+  constructor(private pdfService: PdfService) { }
 
   ngOnInit() {
   }
