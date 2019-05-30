@@ -5,11 +5,11 @@ import { PopupZoomComponent } from '../../components/popup-zoom/popup-zoom.compo
 import { PopoverController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-pdf-viewer',
-  templateUrl: './pdf-viewer.page.html',
-  styleUrls: ['./pdf-viewer.page.scss'],
+  selector: 'app-home',
+  templateUrl: './home.page.html',
+  styleUrls: ['./home.page.scss'],
 })
-export class PdfViewerPage implements OnInit, OnDestroy {
+export class HomePage implements OnInit, OnDestroy {
   @ViewChild('pdf_viewer') ngPdfViewer;
   pdfViewerHeight = 0;
 

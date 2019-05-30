@@ -5,13 +5,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { PdfViewerPage } from './pdf-viewer.page';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { HomePage } from './home.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: PdfViewerPage
+    component: HomePage
   }
 ];
 
@@ -23,6 +23,6 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     PdfViewerModule
   ],
-  declarations: [PdfViewerPage]
+  declarations: [HomePage]
 })
-export class PdfViewerPageModule { }
+export class HomePageModule { }
