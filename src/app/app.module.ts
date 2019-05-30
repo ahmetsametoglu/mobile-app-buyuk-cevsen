@@ -15,7 +15,11 @@ import { PopupZoomComponent } from './popup-zoom/popup-zoom.component';
   declarations: [AppComponent, PopupZoomComponent],
   entryComponents: [PopupZoomComponent],
   imports: [
-    BrowserModule, IonicModule.forRoot(), AppRoutingModule,
+    BrowserModule,
+    IonicModule.forRoot({
+      mode: 'ios'
+    }),
+    AppRoutingModule,
     IonicStorageModule.forRoot()],
   providers: [
     StatusBar,
