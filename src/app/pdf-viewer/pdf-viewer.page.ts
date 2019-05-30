@@ -21,6 +21,9 @@ export class PdfViewerPage implements OnInit, OnDestroy {
   pdfMarginLeft = 0;
   currentPage: IPdfPage;
 
+  showContentMenu = false;
+  showSettingsMenu = false;
+
   constructor(
     private pdfService: PdfService,
     private popoverController: PopoverController
@@ -55,9 +58,17 @@ export class PdfViewerPage implements OnInit, OnDestroy {
     const popover = await this.popoverController.create({
       component: PopupZoomComponent,
       event: ev,
-      translucent: true
+      translucent: true,
+      cssClass: 'zoom-popover'
     });
     await popover.present();
+  }
+
+  onToggleContentMenu() {
+    this.showContentMenu = !this.showContentMenu;
+  }
+  onToggleSettingsMenu() {
+    this.showSettingsMenu = !this.showSettingsMenu;
   }
 
   pageRendered() {

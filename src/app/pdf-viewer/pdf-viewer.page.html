@@ -1,11 +1,16 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title color="danger">
-      Buyuk Cevsen
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button (click)="onToggleContentMenu()">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>
+      Büyük Cevşen
     </ion-title>
-    <ion-buttons slot="primary">
-      <ion-button color="secondary" (click)="onShowZoomMenu($event)">
-        <ion-icon slot="icon-only" name="search"></ion-icon>
+    <ion-buttons slot="end">
+      <ion-button (click)="onToggleSettingsMenu()">
+        <ion-icon slot="icon-only" name="options"></ion-icon>
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
@@ -17,6 +22,7 @@
   </div>
   <pdf-viewer [ngStyle]="{'margin-top': pdfMarginTop+'%', 'margin-left': pdfMarginLeft+'%'}" *ngIf="!!currentPage"
     #pdf_viewer src="../../assets/data/private/buyuk-cevsen.pdf" [zoom]="zoom" (page-rendered)="pageRendered()"
-    [render-text]="false" [show-all]="false" [original-size]="false" [page]="!!currentPage ? currentPage.pageNumber : 1">
+    [render-text]="false" [show-all]="false" [original-size]="false"
+    [page]="!!currentPage ? currentPage.pageNumber : 1">
   </pdf-viewer>
 </ion-content>
