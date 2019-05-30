@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { PdfService } from '../services/pdf.service';
 
 @Component({
@@ -7,6 +7,8 @@ import { PdfService } from '../services/pdf.service';
   styleUrls: ['./pdf-viewer.page.scss'],
 })
 export class PdfViewerPage implements OnInit {
+  @ViewChild('pdf_viewer') ngPdfViewer;
+  pdfViewerHeight = 0;
   zoom = 1;
   pdfMarginTop = 0;
   pdfMarginLeft = 0;
@@ -18,7 +20,7 @@ export class PdfViewerPage implements OnInit {
   }
 
   pageRendered() {
-
+    this.pdfViewerHeight = this.ngPdfViewer.element.nativeElement.scrollHeight;
   }
 
 }
