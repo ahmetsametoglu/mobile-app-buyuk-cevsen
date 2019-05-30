@@ -1,6 +1,8 @@
 import { Component, OnInit, ViewChild, OnDestroy } from '@angular/core';
 import { PdfService, IPdfPage } from '../services/pdf.service';
 import { Subscription } from 'rxjs';
+import { PopupZoomComponent } from '../popup-zoom/popup-zoom.component';
+import { PopoverController } from '@ionic/angular';
 
 @Component({
   selector: 'app-pdf-viewer',
@@ -19,7 +21,11 @@ export class PdfViewerPage implements OnInit, OnDestroy {
   pdfMarginLeft = 0;
   currentPage: IPdfPage;
 
-  constructor(private pdfService: PdfService) { }
+  constructor(
+    private pdfService: PdfService,
+    private popoverController: PopoverController
+  ) { }
+
   ngOnInit() {
     this.pageSubscription = this.pdfService.getCurrentPage().subscribe(page => {
       if (!!page) {
@@ -42,6 +48,16 @@ export class PdfViewerPage implements OnInit, OnDestroy {
     if (this.zoomSubscription) {
       this.zoomSubscription.unsubscribe();
     }
+  }
+
+
+  async onShowZoomMenu(ev) {
+    const popover = await this.popoverController.create({
+      component: PopupZoomComponent,
+      event: ev,
+      translucent: true
+    });
+    await popover.present();
   }
 
   pageRendered() {
