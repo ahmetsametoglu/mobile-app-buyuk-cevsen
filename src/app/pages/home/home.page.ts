@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild, OnDestroy } from '@angular/core';
+import { trigger, state, style, animate, transition } from '@angular/animations';
 import { PdfService, IPdfPage } from '../../services/pdf.service';
 import { Subscription } from 'rxjs';
 import { PopupZoomComponent } from '../../components/popup-zoom/popup-zoom.component';
@@ -8,6 +9,13 @@ import { PopoverController } from '@ionic/angular';
   selector: 'app-home',
   templateUrl: './home.page.html',
   styleUrls: ['./home.page.scss'],
+  animations: [
+    trigger('contentMenu', [
+      state('show', style({ transform: 'translateX(0)', opacity: 1 })),
+      state('hide', style({ transform: 'translateX(-100%)', opacity: 0 })),
+      transition('* => *', animate(500))
+    ]),
+  ]
 })
 export class HomePage implements OnInit, OnDestroy {
   @ViewChild('pdf_viewer') ngPdfViewer;
@@ -21,7 +29,7 @@ export class HomePage implements OnInit, OnDestroy {
   pdfMarginLeft = 0;
   currentPage: IPdfPage;
 
-  showContentMenu = false;
+  showContentMenu = true;
   showSettingsMenu = false;
 
   constructor(
@@ -89,6 +97,11 @@ export class HomePage implements OnInit, OnDestroy {
 
   onZoomOut(event) {
     this.pdfService.scaleZoomFactor(event.scale);
+  }
+
+  onSelectPage(page) {
+    this.pdfService.setCurrentPage(page);
+    this.showContentMenu = false;
   }
 
   centralizePdf() {

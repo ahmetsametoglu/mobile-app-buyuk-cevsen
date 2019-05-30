@@ -18,8 +18,8 @@
 
 <ion-content>
 
-  <div class="menu content-menu" *ngIf="showContentMenu">
-    <app-content-menu></app-content-menu>
+  <div class="menu content-menu" [@contentMenu]='showContentMenu ? "show" :"hide"'>
+    <app-content-menu (selectPage)="onSelectPage($event)"></app-content-menu>
   </div>
   <div class="menu settings-menu" *ngIf="showSettingsMenu">
     <app-settings-menu></app-settings-menu>
