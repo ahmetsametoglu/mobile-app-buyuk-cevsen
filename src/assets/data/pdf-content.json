@@ -1,3428 +1,3429 @@
 {
     "name": "Buyuk Cevsen",
+    "pageCount": 428,
     "pages": [{
             "pageIndex": 0,
             "pageNumber": 1,
             "contentTitle": "Giriş",
-            "showOnContentPage":true,
-            "group": "am",
-            "description": "kapak"
+            "description": "kapak",
+            "showOnContentMenu": true,
+            "group": "am"
         },
         {
             "pageIndex": 1,
             "pageNumber": 2,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "am",
-            "description": "kapak"
+            "description": "kapak",
+            "showOnContentMenu": false,
+            "group": "am"
         },
         {
             "pageIndex": 2,
             "pageNumber": 3,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "am",
-            "description": "kapak"
+            "description": "kapak",
+            "showOnContentMenu": false,
+            "group": "am"
         },
         {
             "pageIndex": 3,
             "pageNumber": 4,
             "contentTitle": "Fatiha Suresi",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Fatiha Suresi  - arapça"
+            "description": "Fatiha Suresi  - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 4,
             "pageNumber": 5,
             "contentTitle": "Fatiha Suresi",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Fatiha Suresi  - meal"
+            "description": "Fatiha Suresi  - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 5,
             "pageNumber": 6,
             "contentTitle": "Yâsîn Sûresi",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Yâsîn Sûresi - sayfa 1  - arapça"
+            "description": "Yâsîn Sûresi - sayfa 1  - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 6,
             "pageNumber": 7,
             "contentTitle": "Yâsîn Sûresi",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Yâsîn Sûresi - sayfa 1  - meal"
+            "description": "Yâsîn Sûresi - sayfa 1  - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 7,
             "pageNumber": 8,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Yâsîn Sûresi - sayfa 2  - arapça"
+            "description": "Yâsîn Sûresi - sayfa 2  - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 8,
             "pageNumber": 9,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Yâsîn Sûresi - sayfa 2  - meal"
+            "description": "Yâsîn Sûresi - sayfa 2  - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 9,
             "pageNumber": 10,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Yâsîn Sûresi - sayfa 3  - arapça"
+            "description": "Yâsîn Sûresi - sayfa 3  - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 10,
             "pageNumber": 11,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Yâsîn Sûresi - sayfa 3  - meal"
+            "description": "Yâsîn Sûresi - sayfa 3  - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 11,
             "pageNumber": 12,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Yâsîn Sûresi - sayfa 4  - arapça"
+            "description": "Yâsîn Sûresi - sayfa 4  - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 12,
             "pageNumber": 13,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Yâsîn Sûresi - sayfa 4  - meal"
+            "description": "Yâsîn Sûresi - sayfa 4  - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 13,
             "pageNumber": 14,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Yâsîn Sûresi - sayfa 5  - arapça"
+            "description": "Yâsîn Sûresi - sayfa 5  - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 14,
             "pageNumber": 15,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Yâsîn Sûresi - sayfa 5  - meal"
+            "description": "Yâsîn Sûresi - sayfa 5  - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 15,
             "pageNumber": 16,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Yâsîn Sûresi - sayfa 6  - arapça"
+            "description": "Yâsîn Sûresi - sayfa 6  - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 16,
             "pageNumber": 17,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Yâsîn Sûresi - sayfa 6  - meal"
+            "description": "Yâsîn Sûresi - sayfa 6  - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 17,
             "pageNumber": 18,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Yâsîn Sûresi - sayfa 7  - arapça"
+            "description": "Yâsîn Sûresi - sayfa 7  - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 18,
             "pageNumber": 19,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Yâsîn Sûresi - sayfa 7  - meal"
+            "description": "Yâsîn Sûresi - sayfa 7  - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 19,
             "pageNumber": 20,
             "contentTitle": "Fetih Sûresi",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Fetih Sûresi - sayfa 1 - arapça"
+            "description": "Fetih Sûresi - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 20,
             "pageNumber": 21,
             "contentTitle": "Fetih Sûresi",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Fetih Sûresi - sayfa 1 - meal"
+            "description": "Fetih Sûresi - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 21,
             "pageNumber": 22,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Fetih Sûresi - sayfa 2 - arapça"
+            "description": "Fetih Sûresi - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 22,
             "pageNumber": 23,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Fetih Sûresi - sayfa 2 - meal"
+            "description": "Fetih Sûresi - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 23,
             "pageNumber": 24,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Fetih Sûresi - sayfa 3 - arapça"
+            "description": "Fetih Sûresi - sayfa 3 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 24,
             "pageNumber": 25,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Fetih Sûresi - sayfa 3 - meal"
+            "description": "Fetih Sûresi - sayfa 3 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 25,
             "pageNumber": 26,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Fetih Sûresi - sayfa 4 - arapça"
+            "description": "Fetih Sûresi - sayfa 4 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 26,
             "pageNumber": 27,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Fetih Sûresi - sayfa 4 - meal"
+            "description": "Fetih Sûresi - sayfa 4 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 27,
             "pageNumber": 28,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Fetih Sûresi - sayfa 5 - arapça"
+            "description": "Fetih Sûresi - sayfa 5 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 28,
             "pageNumber": 29,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Fetih Sûresi - sayfa 5 - meal"
+            "description": "Fetih Sûresi - sayfa 5 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 29,
             "pageNumber": 30,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Fetih Sûresi - sayfa 6 - arapça"
+            "description": "Fetih Sûresi - sayfa 6 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 30,
             "pageNumber": 31,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Fetih Sûresi - sayfa 6 - meal"
+            "description": "Fetih Sûresi - sayfa 6 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 31,
             "pageNumber": 32,
             "contentTitle": "Rahman Sûresi",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Rahman Sûresi - sayfa 1 - arapça"
+            "description": "Rahman Sûresi - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 32,
             "pageNumber": 33,
             "contentTitle": "Rahman Sûresi",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Rahman Sûresi - sayfa 1 - meal"
+            "description": "Rahman Sûresi - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 33,
             "pageNumber": 34,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Rahman Sûresi - sayfa 2 - arapça"
+            "description": "Rahman Sûresi - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 34,
             "pageNumber": 35,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Rahman Sûresi - sayfa 2 - meal"
+            "description": "Rahman Sûresi - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 35,
             "pageNumber": 36,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Rahman Sûresi - sayfa 3 - arapça"
+            "description": "Rahman Sûresi - sayfa 3 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 36,
             "pageNumber": 37,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Rahman Sûresi - sayfa 3 - meal"
+            "description": "Rahman Sûresi - sayfa 3 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 37,
             "pageNumber": 38,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Rahman Sûresi - sayfa 4 - arapça"
+            "description": "Rahman Sûresi - sayfa 4 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 38,
             "pageNumber": 39,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Rahman Sûresi - sayfa 4 - meal"
+            "description": "Rahman Sûresi - sayfa 4 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 39,
             "pageNumber": 40,
             "contentTitle": "Haşir Sûresi’nin Sonu",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Haşir Sûresi’nin Sonu  - arapça"
+            "description": "Haşir Sûresi’nin Sonu  - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 40,
             "pageNumber": 41,
             "contentTitle": "Haşir Sûresi’nin Sonu",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Haşir Sûresi’nin Sonu  - meal"
+            "description": "Haşir Sûresi’nin Sonu  - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 41,
             "pageNumber": 42,
             "contentTitle": "Mülk Sûresi",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Mülk Sûresi - sayfa 1 - arapça"
+            "description": "Mülk Sûresi - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 42,
             "pageNumber": 43,
             "contentTitle": "Mülk Sûresi",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Mülk Sûresi - sayfa 1 - meal"
+            "description": "Mülk Sûresi - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 43,
             "pageNumber": 44,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Mülk Sûresi - sayfa 2 - arapça"
+            "description": "Mülk Sûresi - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 44,
             "pageNumber": 45,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Mülk Sûresi - sayfa 2 - meal"
+            "description": "Mülk Sûresi - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 45,
             "pageNumber": 46,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Mülk Sûresi - sayfa 3 - arapça"
+            "description": "Mülk Sûresi - sayfa 3 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 46,
             "pageNumber": 47,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Mülk Sûresi - sayfa 3 - meal"
+            "description": "Mülk Sûresi - sayfa 3 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 47,
             "pageNumber": 48,
             "contentTitle": "Nebe’ Sûresi",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Nebe’ Sûresi - sayfa 1 - arapça"
+            "description": "Nebe’ Sûresi - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 48,
             "pageNumber": 49,
             "contentTitle": "Nebe’ Sûresi",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Nebe’ Sûresi - sayfa 1 - meal"
+            "description": "Nebe’ Sûresi - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 49,
             "pageNumber": 50,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Nebe’ Sûresi - sayfa 2 - arapça"
+            "description": "Nebe’ Sûresi - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 50,
             "pageNumber": 51,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Nebe’ Sûresi - sayfa 2 - meal"
+            "description": "Nebe’ Sûresi - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 51,
             "pageNumber": 52,
             "contentTitle": "Bakara Sûresi’nin Son İki Âyeti",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Bakara Sûresi’nin Son İki Âyeti  - arapça"
+            "description": "Bakara Sûresi’nin Son İki Âyeti  - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 52,
             "pageNumber": 53,
             "contentTitle": "Bakara Sûresi’nin Son İki Âyeti",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Bakara Sûresi’nin Son İki Âyeti  - meal"
+            "description": "Bakara Sûresi’nin Son İki Âyeti  - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 53,
             "pageNumber": 54,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "arapça"
+            "description": "arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 54,
             "pageNumber": 55,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "meal"
+            "description": "meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 55,
             "pageNumber": 56,
             "contentTitle": "Cevşenü’l-Kebîr",
-            "showOnContentPage":true,
-            "group": "am",
-            "description": "Cevşenü’l-Kebîr - açıklama"
+            "description": "Cevşenü’l-Kebîr - açıklama",
+            "showOnContentMenu": true,
+            "group": "am"
         },
         {
             "pageIndex": 56,
             "pageNumber": 57,
             "contentTitle": "Cevşenü’l-Kebîr",
-            "showOnContentPage":true,
-            "group": "am",
-            "description": "Cevşenü’l-Kebîr - kapak"
+            "description": "Cevşenü’l-Kebîr - kapak",
+            "showOnContentMenu": true,
+            "group": "am"
         },
         {
             "pageIndex": 57,
             "pageNumber": 58,
             "contentTitle": "Cevşenü’l-Kebîr",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 1 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 58,
             "pageNumber": 59,
             "contentTitle": "Cevşenü’l-Kebîr",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 1 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 59,
             "pageNumber": 60,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 2 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 60,
             "pageNumber": 61,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 2 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 61,
             "pageNumber": 62,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 3 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 3 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 62,
             "pageNumber": 63,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 3 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 3 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 63,
             "pageNumber": 64,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 4 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 4 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 64,
             "pageNumber": 65,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 4 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 4 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 65,
             "pageNumber": 66,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 5 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 5 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 66,
             "pageNumber": 67,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 5 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 5 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 67,
             "pageNumber": 68,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 6 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 6 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 68,
             "pageNumber": 69,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 6 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 6 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 69,
             "pageNumber": 70,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 7 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 7 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 70,
             "pageNumber": 71,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 7 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 7 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 71,
             "pageNumber": 72,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 8 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 8 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 72,
             "pageNumber": 73,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 8 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 8 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 73,
             "pageNumber": 74,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 9 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 9 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 74,
             "pageNumber": 75,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 9 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 9 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 75,
             "pageNumber": 76,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 10 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 10 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 76,
             "pageNumber": 77,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 10 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 10 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 77,
             "pageNumber": 78,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 11 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 11 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 78,
             "pageNumber": 79,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 11 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 11 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 79,
             "pageNumber": 80,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 12 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 12 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 80,
             "pageNumber": 81,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 12 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 12 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 81,
             "pageNumber": 82,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 13 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 13 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 82,
             "pageNumber": 83,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 13 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 13 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 83,
             "pageNumber": 84,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 14 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 14 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 84,
             "pageNumber": 85,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 14 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 14 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 85,
             "pageNumber": 86,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 15 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 15 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 86,
             "pageNumber": 87,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 15 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 15 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 87,
             "pageNumber": 88,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 16 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 16 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 88,
             "pageNumber": 89,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 16 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 16 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 89,
             "pageNumber": 90,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 17 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 17 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 90,
             "pageNumber": 91,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 17 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 17 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 91,
             "pageNumber": 92,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 18 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 18 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 92,
             "pageNumber": 93,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 18 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 18 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 93,
             "pageNumber": 94,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 19 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 19 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 94,
             "pageNumber": 95,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 19 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 19 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 95,
             "pageNumber": 96,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 20 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 20 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 96,
             "pageNumber": 97,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 20 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 20 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 97,
             "pageNumber": 98,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 21 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 21 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 98,
             "pageNumber": 99,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 21 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 21 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 99,
             "pageNumber": 100,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 22 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 22 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 100,
             "pageNumber": 101,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 22 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 22 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 101,
             "pageNumber": 102,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 23 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 23 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 102,
             "pageNumber": 103,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 23 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 23 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 103,
             "pageNumber": 104,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 24 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 24 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 104,
             "pageNumber": 105,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 24 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 24 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 105,
             "pageNumber": 106,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 25 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 25 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 106,
             "pageNumber": 107,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 25 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 25 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 107,
             "pageNumber": 108,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 26 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 26 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 108,
             "pageNumber": 109,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 26 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 26 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 109,
             "pageNumber": 110,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 27 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 27 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 110,
             "pageNumber": 111,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 27 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 27 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 111,
             "pageNumber": 112,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 28 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 28 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 112,
             "pageNumber": 113,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 28 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 28 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 113,
             "pageNumber": 114,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 29 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 29 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 114,
             "pageNumber": 115,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 29 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 29 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 115,
             "pageNumber": 116,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 30 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 30 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 116,
             "pageNumber": 117,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 30 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 30 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 117,
             "pageNumber": 118,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 31 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 31 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 118,
             "pageNumber": 119,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 31 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 31 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 119,
             "pageNumber": 120,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 32 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 32 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 120,
             "pageNumber": 121,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 32 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 32 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 121,
             "pageNumber": 122,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 33 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 33 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 122,
             "pageNumber": 123,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 33 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 33 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 123,
             "pageNumber": 124,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 34 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 34 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 124,
             "pageNumber": 125,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 34 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 34 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 125,
             "pageNumber": 126,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 35 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 35 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 126,
             "pageNumber": 127,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 35 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 35 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 127,
             "pageNumber": 128,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 36 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 36 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 128,
             "pageNumber": 129,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 36 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 36 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 129,
             "pageNumber": 130,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 37 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 37 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 130,
             "pageNumber": 131,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 37 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 37 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 131,
             "pageNumber": 132,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 38 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 38 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 132,
             "pageNumber": 133,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 38 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 38 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 133,
             "pageNumber": 134,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 39 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 39 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 134,
             "pageNumber": 135,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 39 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 39 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 135,
             "pageNumber": 136,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 40 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 40 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 136,
             "pageNumber": 137,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 40 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 40 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 137,
             "pageNumber": 138,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 41 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 41 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 138,
             "pageNumber": 139,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 41 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 41 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 139,
             "pageNumber": 140,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 42 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 42 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 140,
             "pageNumber": 141,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 42 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 42 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 141,
             "pageNumber": 142,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 43 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 43 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 142,
             "pageNumber": 143,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 43 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 43 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 143,
             "pageNumber": 144,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 44 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 44 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 144,
             "pageNumber": 145,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 44 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 44 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 145,
             "pageNumber": 146,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 45 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 45 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 146,
             "pageNumber": 147,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 45 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 45 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 147,
             "pageNumber": 148,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Cevşenü’l-Kebîr - sayfa 46 - arapça"
+            "description": "Cevşenü’l-Kebîr - sayfa 46 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 148,
             "pageNumber": 149,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Cevşenü’l-Kebîr - sayfa 46 - meal"
+            "description": "Cevşenü’l-Kebîr - sayfa 46 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 149,
             "pageNumber": 151,
             "contentTitle": "Evrâd-ı Kudsiye",
-            "showOnContentPage":true,
-            "group": "am",
-            "description": "Evrâd-ı Kudsiye - kapak"
+            "description": "Evrâd-ı Kudsiye - kapak",
+            "showOnContentMenu": true,
+            "group": "am"
         },
         {
             "pageIndex": 150,
             "pageNumber": 153,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "am",
-            "description": "Evrâd-ı Kudsiye - açıklama"
+            "description": "Evrâd-ı Kudsiye - açıklama",
+            "showOnContentMenu": false,
+            "group": "am"
         },
         {
             "pageIndex": 151,
             "pageNumber": 154,
             "contentTitle": "Evrâd-ı Kudsiye",
-            "showOnContentPage":true,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 1 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": ""
         },
         {
             "pageIndex": 152,
             "pageNumber": 155,
             "contentTitle": "Evrâd-ı Kudsiye",
-            "showOnContentPage":true,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 1 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": ""
         },
         {
             "pageIndex": 153,
             "pageNumber": 156,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 2 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 154,
             "pageNumber": 157,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 2 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 155,
             "pageNumber": 158,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 3 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 3 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 156,
             "pageNumber": 159,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 3 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 3 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 157,
             "pageNumber": 160,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 4 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 4 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 158,
             "pageNumber": 161,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 4 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 4 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 159,
             "pageNumber": 162,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 5 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 5 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 160,
             "pageNumber": 163,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 5 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 5 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 161,
             "pageNumber": 164,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 6 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 6 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 162,
             "pageNumber": 165,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 6 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 6 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 163,
             "pageNumber": 166,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 7 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 7 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 164,
             "pageNumber": 167,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 7 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 7 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 165,
             "pageNumber": 168,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 8 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 8 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 166,
             "pageNumber": 169,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 8 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 8 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 167,
             "pageNumber": 170,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 9 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 9 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 168,
             "pageNumber": 171,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 9 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 9 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 169,
             "pageNumber": 172,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 10 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 10 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 170,
             "pageNumber": 173,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 10 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 10 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 171,
             "pageNumber": 174,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 11 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 11 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 172,
             "pageNumber": 175,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 11 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 11 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 173,
             "pageNumber": 176,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 12 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 12 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 174,
             "pageNumber": 177,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 12 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 12 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 175,
             "pageNumber": 178,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 13 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 13 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 176,
             "pageNumber": 179,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 13 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 13 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 177,
             "pageNumber": 180,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 14 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 14 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 178,
             "pageNumber": 181,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 14 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 14 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 179,
             "pageNumber": 182,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 15 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 15 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 180,
             "pageNumber": 183,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 15 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 15 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 181,
             "pageNumber": 184,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 16 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 16 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 182,
             "pageNumber": 185,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 16 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 16 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 183,
             "pageNumber": 186,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 17 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 17 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 184,
             "pageNumber": 187,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 17 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 17 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 185,
             "pageNumber": 188,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 18 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 18 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 186,
             "pageNumber": 189,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 18 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 18 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 187,
             "pageNumber": 190,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 19 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 19 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 188,
             "pageNumber": 191,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 19 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 19 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 189,
             "pageNumber": 192,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 20 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 20 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 190,
             "pageNumber": 193,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 20 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 20 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 191,
             "pageNumber": 194,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 21 - arapça"
+            "description": "Evrâd-ı Kudsiye - sayfa 21 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 192,
             "pageNumber": 195,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Evrâd-ı Kudsiye - sayfa 21 - meal"
+            "description": "Evrâd-ı Kudsiye - sayfa 21 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 193,
             "pageNumber": 197,
             "contentTitle": "Delâilü’n-Nûr",
-            "showOnContentPage":true,
-            "group": "am",
-            "description": " Delâilü’n-Nûr - kapak"
+            "description": " Delâilü’n-Nûr - kapak",
+            "showOnContentMenu": true,
+            "group": "am"
         },
         {
             "pageIndex": 194,
             "pageNumber": 198,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "am",
-            "description": "Delâilü’n-Nûr - açıklama"
+            "description": "Delâilü’n-Nûr - açıklama",
+            "showOnContentMenu": false,
+            "group": "am"
         },
         {
             "pageIndex": 195,
             "pageNumber": 199,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "am",
-            "description": "Delâilü’n-Nûr - açıklama"
+            "description": "Delâilü’n-Nûr - açıklama",
+            "showOnContentMenu": false,
+            "group": "am"
         },
         {
             "pageIndex": 196,
             "pageNumber": 200,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "am",
-            "description": "Delâilü’n-Nûr - açıklama"
+            "description": "Delâilü’n-Nûr - açıklama",
+            "showOnContentMenu": false,
+            "group": "am"
         },
         {
             "pageIndex": 197,
             "pageNumber": 201,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "am",
-            "description": "Delâilü’n-Nûr - açıklama"
+            "description": "Delâilü’n-Nûr - açıklama",
+            "showOnContentMenu": false,
+            "group": "am"
         },
         {
             "pageIndex": 198,
             "pageNumber": 202,
             "contentTitle": "Delâilü’n-Nûr",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 1 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 199,
             "pageNumber": 203,
             "contentTitle": "Delâilü’n-Nûr",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 1 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 200,
             "pageNumber": 204,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 2 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 201,
             "pageNumber": 205,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 2 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 202,
             "pageNumber": 206,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 3 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 3 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 203,
             "pageNumber": 207,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 3 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 3 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 204,
             "pageNumber": 208,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 4 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 4 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 205,
             "pageNumber": 209,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 4 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 4 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 206,
             "pageNumber": 210,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 5 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 5 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 207,
             "pageNumber": 211,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 5 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 5 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 208,
             "pageNumber": 212,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 6 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 6 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 209,
             "pageNumber": 213,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 6 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 6 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 210,
             "pageNumber": 214,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 7 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 7 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 211,
             "pageNumber": 215,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 7 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 7 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 212,
             "pageNumber": 216,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 8 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 8 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 213,
             "pageNumber": 217,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 8 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 8 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 214,
             "pageNumber": 218,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 9 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 9 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 215,
             "pageNumber": 219,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 9 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 9 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 216,
             "pageNumber": 220,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 10 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 10 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 217,
             "pageNumber": 221,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 10 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 10 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 218,
             "pageNumber": 222,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 11 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 11 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 219,
             "pageNumber": 223,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 11 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 11 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 220,
             "pageNumber": 224,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 12 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 12 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 221,
             "pageNumber": 225,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 12 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 12 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 222,
             "pageNumber": 226,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 13 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 13 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 223,
             "pageNumber": 227,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 13 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 13 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 224,
             "pageNumber": 228,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 14 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 14 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 225,
             "pageNumber": 229,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 14 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 14 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 226,
             "pageNumber": 230,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 15 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 15 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 227,
             "pageNumber": 231,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 15 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 15 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 228,
             "pageNumber": 232,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 16 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 16 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 229,
             "pageNumber": 233,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 16 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 16 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 230,
             "pageNumber": 234,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Delâilü’n-Nûr - sayfa 17 - arapça"
+            "description": "Delâilü’n-Nûr - sayfa 17 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 231,
             "pageNumber": 235,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Delâilü’n-Nûr - sayfa 17 - meal"
+            "description": "Delâilü’n-Nûr - sayfa 17 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 232,
             "pageNumber": 236,
             "contentTitle": "Sekîne Duası",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Sekîne Duası - sayfa 1 - arapça"
+            "description": "Sekîne Duası - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 233,
             "pageNumber": 237,
             "contentTitle": "Sekîne Duası",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Sekîne Duası - sayfa 1 - meal"
+            "description": "Sekîne Duası - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 234,
             "pageNumber": 238,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Sekîne Duası - sayfa 2 - arapça"
+            "description": "Sekîne Duası - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 235,
             "pageNumber": 239,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Sekîne Duası - sayfa 2 - meal"
+            "description": "Sekîne Duası - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 236,
             "pageNumber": 240,
             "contentTitle": "Veysel Karanî’nin Duası",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Veysel Karanî’nin Duası - sayfa 1 - arapça"
+            "description": "Veysel Karanî’nin Duası - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 237,
             "pageNumber": 241,
             "contentTitle": "Veysel Karanî’nin Duası",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Veysel Karanî’nin Duası - sayfa 1 - meal"
+            "description": "Veysel Karanî’nin Duası - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 238,
             "pageNumber": 242,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Veysel Karanî’nin Duası - sayfa 2 - arapça"
+            "description": "Veysel Karanî’nin Duası - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 239,
             "pageNumber": 243,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Veysel Karanî’nin Duası - sayfa 2 - meal"
+            "description": "Veysel Karanî’nin Duası - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 240,
             "pageNumber": 245,
             "contentTitle": "Dua-u Tercümân-i İsm-i A’zam & Dua-u İsm-i A’zam",
-            "showOnContentPage":true,
-            "group": "am",
-            "description": ""
+            "description": "",
+            "showOnContentMenu": true,
+            "group": "am"
         },
         {
             "pageIndex": 241,
             "pageNumber": 247,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "am",
-            "description": ""
+            "description": "",
+            "showOnContentMenu": false,
+            "group": "am"
         },
         {
             "pageIndex": 242,
             "pageNumber": 248,
             "contentTitle": "Dua-u Tercümân-i İsm-i A’zam",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Dua-u Tercümân-i İsm-i A’zam - sayfa 1 - arapça"
+            "description": "Dua-u Tercümân-i İsm-i A’zam - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 243,
             "pageNumber": 249,
             "contentTitle": "Dua-u Tercümân-i İsm-i A’zam",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Dua-u Tercümân-i İsm-i A’zam - sayfa 1 - meal"
+            "description": "Dua-u Tercümân-i İsm-i A’zam - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 244,
             "pageNumber": 250,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Dua-u Tercümân-i İsm-i A’zam - sayfa 2 - arapça"
+            "description": "Dua-u Tercümân-i İsm-i A’zam - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 245,
             "pageNumber": 251,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Dua-u Tercümân-i İsm-i A’zam - sayfa 2 - meal"
+            "description": "Dua-u Tercümân-i İsm-i A’zam - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 246,
             "pageNumber": 252,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Dua-u Tercümân-i İsm-i A’zam - sayfa 3 - arapça"
+            "description": "Dua-u Tercümân-i İsm-i A’zam - sayfa 3 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 247,
             "pageNumber": 253,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Dua-u Tercümân-i İsm-i A’zam - sayfa 4 - meal"
+            "description": "Dua-u Tercümân-i İsm-i A’zam - sayfa 4 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 248,
             "pageNumber": 254,
             "contentTitle": "Dua-u İsm-i A’zam",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Dua-u İsm-i A’zam - sayfa 1 - arapça"
+            "description": "Dua-u İsm-i A’zam - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 249,
             "pageNumber": 255,
             "contentTitle": "Dua-u İsm-i A’zam",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Dua-u İsm-i A’zam - sayfa 1 - meal"
+            "description": "Dua-u İsm-i A’zam - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 250,
             "pageNumber": 256,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Dua-u İsm-i A’zam - sayfa 2 - arapça"
+            "description": "Dua-u İsm-i A’zam - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 251,
             "pageNumber": 257,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "",
-            "description": "Dua-u İsm-i A’zam - sayfa 2 - meal"
+            "description": "Dua-u İsm-i A’zam - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": ""
         },
         {
             "pageIndex": 252,
             "pageNumber": 259,
             "contentTitle": "Münâcâtu’l-Kur’ân",
-            "showOnContentPage":true,
-            "group": "am",
-            "description": "Münâcâtu’l-Kur’ân - kapak"
+            "description": "Münâcâtu’l-Kur’ân - kapak",
+            "showOnContentMenu": true,
+            "group": "am"
         },
         {
             "pageIndex": 253,
             "pageNumber": 260,
             "contentTitle": "Münâcâtu’l-Kur’ân",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 1 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 254,
             "pageNumber": 261,
             "contentTitle": "Münâcâtu’l-Kur’ân",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 1 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 255,
             "pageNumber": 262,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 2 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 256,
             "pageNumber": 263,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 2 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 257,
             "pageNumber": 264,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 3 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 3 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 258,
             "pageNumber": 265,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 3 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 3 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 259,
             "pageNumber": 266,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 4 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 4 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 260,
             "pageNumber": 267,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 4 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 4 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 261,
             "pageNumber": 268,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 5 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 5 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 262,
             "pageNumber": 269,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 5 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 5 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 263,
             "pageNumber": 270,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 6 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 6 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 264,
             "pageNumber": 271,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 6 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 6 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 265,
             "pageNumber": 272,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 7 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 7 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 266,
             "pageNumber": 273,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 7 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 7 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 267,
             "pageNumber": 274,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 8 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 8 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 268,
             "pageNumber": 275,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 8 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 8 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 269,
             "pageNumber": 276,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 9 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 9 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 270,
             "pageNumber": 277,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 9 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 9 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 271,
             "pageNumber": 278,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 10 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 10 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 272,
             "pageNumber": 279,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 10 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 10 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 273,
             "pageNumber": 280,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 11 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 11 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 274,
             "pageNumber": 281,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 11 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 11 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 275,
             "pageNumber": 282,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 12 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 12 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 276,
             "pageNumber": 283,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 12 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 12 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 277,
             "pageNumber": 284,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 13 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 13 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 278,
             "pageNumber": 285,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 13 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 13 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 279,
             "pageNumber": 286,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 14 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 14 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 280,
             "pageNumber": 287,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 14 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 14 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 281,
             "pageNumber": 288,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 15 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 15 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 282,
             "pageNumber": 289,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 15 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 15 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 283,
             "pageNumber": 290,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 16 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 16 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 284,
             "pageNumber": 291,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 16 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 16 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 285,
             "pageNumber": 292,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 17 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 17 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 286,
             "pageNumber": 293,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 17 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 17 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 287,
             "pageNumber": 294,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 18 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 18 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 288,
             "pageNumber": 295,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 18 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 18 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 289,
             "pageNumber": 296,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 19 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 19 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 290,
             "pageNumber": 297,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 19 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 19 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 291,
             "pageNumber": 298,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 20 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 20 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 292,
             "pageNumber": 299,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 20 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 20 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 293,
             "pageNumber": 300,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 21 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 21 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 294,
             "pageNumber": 301,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 21 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 21 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 295,
             "pageNumber": 302,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 22 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 22 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 296,
             "pageNumber": 303,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 22 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 22 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 297,
             "pageNumber": 304,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 23 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 23 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 298,
             "pageNumber": 305,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 23 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 23 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 299,
             "pageNumber": 306,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 24 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 24 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 300,
             "pageNumber": 307,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 24 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 24 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 301,
             "pageNumber": 308,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 25 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 25 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 302,
             "pageNumber": 309,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 25 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 25 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 303,
             "pageNumber": 310,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 26 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 26 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 304,
             "pageNumber": 311,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 26 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 26 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 305,
             "pageNumber": 312,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 27 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 27 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 306,
             "pageNumber": 313,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 27 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 27 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 307,
             "pageNumber": 314,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 28 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 28 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 308,
             "pageNumber": 315,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 28 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 28 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 309,
             "pageNumber": 316,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 29 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 29 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 310,
             "pageNumber": 317,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 29 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 29 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 311,
             "pageNumber": 318,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 30 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 30 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 312,
             "pageNumber": 319,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 30 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 30 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 313,
             "pageNumber": 320,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 31 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 31 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 314,
             "pageNumber": 321,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 31 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 31 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 315,
             "pageNumber": 322,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 32 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 32 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 316,
             "pageNumber": 323,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 32 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 32 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 317,
             "pageNumber": 324,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 33 - arapça"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 33 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 318,
             "pageNumber": 325,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcâtu’l-Kur’ân - sayfa 33 - meal"
+            "description": "Münâcâtu’l-Kur’ân - sayfa 33 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 319,
             "pageNumber": 327,
             "contentTitle": "Tahmidiye Duası",
-            "showOnContentPage":true,
-            "group": "am",
-            "description": "Tahmidiye Duası - kapak"
+            "description": "Tahmidiye Duası - kapak",
+            "showOnContentMenu": true,
+            "group": "am"
         },
         {
             "pageIndex": 320,
             "pageNumber": 328,
             "contentTitle": "Tahmidiye Duası",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 1 - arapça"
+            "description": "Tahmidiye Duası - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 321,
             "pageNumber": 329,
             "contentTitle": "Tahmidiye Duası",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 1 - meal"
+            "description": "Tahmidiye Duası - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 322,
             "pageNumber": 330,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 2 - arapça"
+            "description": "Tahmidiye Duası - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 323,
             "pageNumber": 331,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 2 - meal"
+            "description": "Tahmidiye Duası - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 324,
             "pageNumber": 332,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 3 - arapça"
+            "description": "Tahmidiye Duası - sayfa 3 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 325,
             "pageNumber": 333,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 3 - meal"
+            "description": "Tahmidiye Duası - sayfa 3 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 326,
             "pageNumber": 334,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 4 - arapça"
+            "description": "Tahmidiye Duası - sayfa 4 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 327,
             "pageNumber": 335,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 4 - meal"
+            "description": "Tahmidiye Duası - sayfa 4 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 328,
             "pageNumber": 336,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 5 - arapça"
+            "description": "Tahmidiye Duası - sayfa 5 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 329,
             "pageNumber": 337,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 5 - meal"
+            "description": "Tahmidiye Duası - sayfa 5 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 330,
             "pageNumber": 338,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 6 - arapça"
+            "description": "Tahmidiye Duası - sayfa 6 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 331,
             "pageNumber": 339,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 6 - meal"
+            "description": "Tahmidiye Duası - sayfa 6 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 332,
             "pageNumber": 340,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 7 - arapça"
+            "description": "Tahmidiye Duası - sayfa 7 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 333,
             "pageNumber": 341,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 7 - meal"
+            "description": "Tahmidiye Duası - sayfa 7 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 334,
             "pageNumber": 342,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 8 - arapça"
+            "description": "Tahmidiye Duası - sayfa 8 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 335,
             "pageNumber": 343,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 8 - meal"
+            "description": "Tahmidiye Duası - sayfa 8 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 336,
             "pageNumber": 344,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 9 - arapça"
+            "description": "Tahmidiye Duası - sayfa 9 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 337,
             "pageNumber": 345,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 9 - meal"
+            "description": "Tahmidiye Duası - sayfa 9 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 338,
             "pageNumber": 346,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 10 - arapça"
+            "description": "Tahmidiye Duası - sayfa 10 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 339,
             "pageNumber": 347,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 10 - meal"
+            "description": "Tahmidiye Duası - sayfa 10 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 340,
             "pageNumber": 348,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 11 - arapça"
+            "description": "Tahmidiye Duası - sayfa 11 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 341,
             "pageNumber": 349,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 11 - meal"
+            "description": "Tahmidiye Duası - sayfa 11 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 342,
             "pageNumber": 350,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 12 - arapça"
+            "description": "Tahmidiye Duası - sayfa 12 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 343,
             "pageNumber": 351,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 12 - meal"
+            "description": "Tahmidiye Duası - sayfa 12 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 344,
             "pageNumber": 352,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 13 - arapça"
+            "description": "Tahmidiye Duası - sayfa 13 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 345,
             "pageNumber": 353,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 13 - meal"
+            "description": "Tahmidiye Duası - sayfa 13 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 346,
             "pageNumber": 354,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 14 - arapça"
+            "description": "Tahmidiye Duası - sayfa 14 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 347,
             "pageNumber": 355,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 14 - meal"
+            "description": "Tahmidiye Duası - sayfa 14 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 348,
             "pageNumber": 356,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 15 - arapça"
+            "description": "Tahmidiye Duası - sayfa 15 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 349,
             "pageNumber": 357,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 15 - meal"
+            "description": "Tahmidiye Duası - sayfa 15 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 350,
             "pageNumber": 358,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 16 - arapça"
+            "description": "Tahmidiye Duası - sayfa 16 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 351,
             "pageNumber": 359,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 16 - meal"
+            "description": "Tahmidiye Duası - sayfa 16 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 352,
             "pageNumber": 360,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 17 - arapça"
+            "description": "Tahmidiye Duası - sayfa 17 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 353,
             "pageNumber": 361,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 17 - meal"
+            "description": "Tahmidiye Duası - sayfa 17 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 354,
             "pageNumber": 362,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 18 - arapça"
+            "description": "Tahmidiye Duası - sayfa 18 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 355,
             "pageNumber": 363,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 18 - meal"
+            "description": "Tahmidiye Duası - sayfa 18 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 356,
             "pageNumber": 364,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 19 - arapça"
+            "description": "Tahmidiye Duası - sayfa 19 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 357,
             "pageNumber": 365,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 19 - meal"
+            "description": "Tahmidiye Duası - sayfa 19 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 358,
             "pageNumber": 366,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 20 - arapça"
+            "description": "Tahmidiye Duası - sayfa 20 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 359,
             "pageNumber": 367,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 20 - meal"
+            "description": "Tahmidiye Duası - sayfa 20 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 360,
             "pageNumber": 368,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 21 - arapça"
+            "description": "Tahmidiye Duası - sayfa 21 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 361,
             "pageNumber": 369,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 21 - meal"
+            "description": "Tahmidiye Duası - sayfa 21 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 362,
             "pageNumber": 370,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Tahmidiye Duası - sayfa 22 - arapça"
+            "description": "Tahmidiye Duası - sayfa 22 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 363,
             "pageNumber": 371,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Tahmidiye Duası - sayfa 22 - meal"
+            "description": "Tahmidiye Duası - sayfa 22 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 364,
             "pageNumber": 373,
             "contentTitle": "Hülâsatü’l-Hülâsa",
-            "showOnContentPage":true,
-            "group": "am",
-            "description": "Hülâsatü’l-Hülâsa - kapak"
+            "description": "Hülâsatü’l-Hülâsa - kapak",
+            "showOnContentMenu": true,
+            "group": "am"
         },
         {
             "pageIndex": 365,
             "pageNumber": 374,
             "contentTitle": "Hülâsatü’l-Hülâsa",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 1 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 366,
             "pageNumber": 375,
             "contentTitle": "Hülâsatü’l-Hülâsa",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 1 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 367,
             "pageNumber": 376,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 2 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 368,
             "pageNumber": 377,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 2 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 369,
             "pageNumber": 378,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 3 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 3 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 370,
             "pageNumber": 379,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 3 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 3 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 371,
             "pageNumber": 380,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 4 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 4 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 372,
             "pageNumber": 381,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 4 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 4 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 373,
             "pageNumber": 382,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 5 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 5 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 374,
             "pageNumber": 383,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 5 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 5 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 375,
             "pageNumber": 384,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 6 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 6 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 376,
             "pageNumber": 385,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 6 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 6 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 377,
             "pageNumber": 386,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 7 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 7 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 378,
             "pageNumber": 387,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 7 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 7 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 379,
             "pageNumber": 388,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 8 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 8 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 380,
             "pageNumber": 389,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 8 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 8 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 381,
             "pageNumber": 390,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 9 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 9 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 382,
             "pageNumber": 391,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 9 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 9 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 383,
             "pageNumber": 392,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 10 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 10 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 384,
             "pageNumber": 393,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 10 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 10 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 385,
             "pageNumber": 394,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 11 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 11 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 386,
             "pageNumber": 395,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 11 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 11 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 387,
             "pageNumber": 396,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 12 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 12 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 388,
             "pageNumber": 397,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 12 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 12 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 389,
             "pageNumber": 398,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 13 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 13 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 390,
             "pageNumber": 399,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 13 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 13 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 391,
             "pageNumber": 400,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 14 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 14 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 392,
             "pageNumber": 401,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 14 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 14 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 393,
             "pageNumber": 402,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 15 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 15 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 394,
             "pageNumber": 403,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 15 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 15 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 395,
             "pageNumber": 404,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 16 - arapça"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 16 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 396,
             "pageNumber": 405,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Hülâsatü’l-Hülâsa - sayfa 16 - meal"
+            "description": "Hülâsatü’l-Hülâsa - sayfa 16 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 397,
             "pageNumber": 407,
             "contentTitle": "Münâcât (Abdülkâdir Geylanî’nin Duası)",
-            "showOnContentPage":true,
-            "group": "am",
-            "description": "Münâcât - kapak"
+            "description": "Münâcât - kapak",
+            "showOnContentMenu": true,
+            "group": "am"
         },
         {
             "pageIndex": 398,
             "pageNumber": 408,
             "contentTitle": "Münâcât (Abdülkâdir Geylanî’nin Duası)",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Münâcât - sayfa 1 - arapça"
+            "description": "Münâcât - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 399,
             "pageNumber": 409,
             "contentTitle": "Münâcât (Abdülkâdir Geylanî’nin Duası)",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Münâcât - sayfa 1 - meal"
+            "description": "Münâcât - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 400,
             "pageNumber": 410,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcât - sayfa 2 - arapça"
+            "description": "Münâcât - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 401,
             "pageNumber": 411,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcât - sayfa 2 - meal"
+            "description": "Münâcât - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 402,
             "pageNumber": 412,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcât - sayfa 3 - arapça"
+            "description": "Münâcât - sayfa 3 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 403,
             "pageNumber": 413,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcât - sayfa 3 - meal"
+            "description": "Münâcât - sayfa 3 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 404,
             "pageNumber": 414,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcât - sayfa 4 - arapça"
+            "description": "Münâcât - sayfa 4 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 405,
             "pageNumber": 415,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcât - sayfa 4 - meal"
+            "description": "Münâcât - sayfa 4 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 406,
             "pageNumber": 416,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Münâcât - sayfa 5 - arapça"
+            "description": "Münâcât - sayfa 5 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 407,
             "pageNumber": 417,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Münâcât - sayfa 5 - meal"
+            "description": "Münâcât - sayfa 5 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 408,
             "pageNumber": 418,
             "contentTitle": "Bir Dua",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Bir Dua - sayfa 1 - arapça"
+            "description": "Bir Dua - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 409,
             "pageNumber": 419,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Bir Dua - sayfa 1 - meal"
+            "description": "Bir Dua - sayfa 1 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 410,
             "pageNumber": 420,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Bir Dua - sayfa 2 - arapça"
+            "description": "Bir Dua - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 411,
             "pageNumber": 421,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Bir Dua - sayfa 2 - meal"
+            "description": "Bir Dua - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 412,
             "pageNumber": 422,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Bir Dua - sayfa 3 - arapça"
+            "description": "Bir Dua - sayfa 3 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 413,
             "pageNumber": 423,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Bir Dua - sayfa 3 - meal"
+            "description": "Bir Dua - sayfa 3 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 414,
             "pageNumber": 424,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Bir Dua - sayfa 4 - arapça"
+            "description": "Bir Dua - sayfa 4 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 415,
             "pageNumber": 425,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Bir Dua - sayfa 4 - meal"
+            "description": "Bir Dua - sayfa 4 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 416,
             "pageNumber": 430,
             "contentTitle": "Bâbu’ş-Şefâat",
-            "showOnContentPage":true,
-            "group": "a",
-            "description": "Bâbu’ş-Şefâat - sayfa 1 - arapça"
+            "description": "Bâbu’ş-Şefâat - sayfa 1 - arapça",
+            "showOnContentMenu": true,
+            "group": "a"
         },
         {
             "pageIndex": 417,
             "pageNumber": 431,
             "contentTitle": "Bâbu’ş-Şefâat",
-            "showOnContentPage":true,
-            "group": "m",
-            "description": "Bâbu’ş-Şefâat - sayfa 1 - meal"
+            "description": "Bâbu’ş-Şefâat - sayfa 1 - meal",
+            "showOnContentMenu": true,
+            "group": "m"
         },
         {
             "pageIndex": 418,
             "pageNumber": 432,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Bâbu’ş-Şefâat - sayfa 2 - arapça"
+            "description": "Bâbu’ş-Şefâat - sayfa 2 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 419,
             "pageNumber": 433,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Bâbu’ş-Şefâat - sayfa 2 - meal"
+            "description": "Bâbu’ş-Şefâat - sayfa 2 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 420,
             "pageNumber": 434,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Bâbu’ş-Şefâat - sayfa 3 - arapça"
+            "description": "Bâbu’ş-Şefâat - sayfa 3 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 421,
             "pageNumber": 435,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Bâbu’ş-Şefâat - sayfa 3 - meal"
+            "description": "Bâbu’ş-Şefâat - sayfa 3 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 422,
             "pageNumber": 436,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Bâbu’ş-Şefâat - sayfa 4 - arapça"
+            "description": "Bâbu’ş-Şefâat - sayfa 4 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 423,
             "pageNumber": 437,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Bâbu’ş-Şefâat - sayfa 4 - meal"
+            "description": "Bâbu’ş-Şefâat - sayfa 4 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 424,
             "pageNumber": 438,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Bâbu’ş-Şefâat - sayfa 5 - arapça"
+            "description": "Bâbu’ş-Şefâat - sayfa 5 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 425,
             "pageNumber": 439,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Bâbu’ş-Şefâat - sayfa 5 - meal"
+            "description": "Bâbu’ş-Şefâat - sayfa 5 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         },
         {
             "pageIndex": 426,
             "pageNumber": 440,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "a",
-            "description": "Bâbu’ş-Şefâat - sayfa 6 - arapça"
+            "description": "Bâbu’ş-Şefâat - sayfa 6 - arapça",
+            "showOnContentMenu": false,
+            "group": "a"
         },
         {
             "pageIndex": 427,
             "pageNumber": 441,
             "contentTitle": "",
-            "showOnContentPage":false,
-            "group": "m",
-            "description": "Bâbu’ş-Şefâat - sayfa 6 - meal"
+            "description": "Bâbu’ş-Şefâat - sayfa 6 - meal",
+            "showOnContentMenu": false,
+            "group": "m"
         }
     ]
 }
