@@ -1,3 +1,10 @@
+.finger-swipe {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	touch-action:unset !important;
+}
+
 pdf-viewer {
 	display: block;
 }

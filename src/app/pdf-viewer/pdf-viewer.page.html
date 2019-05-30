@@ -7,6 +7,9 @@
 </ion-header>
 
 <ion-content>
+  <div class="finger-swipe" (swipeleft)="onSwipeLeft($event)" (swiperight)="onSwipeRight($event)"
+    (pinchin)="onZoomIn($event)" (pinchout)="onZoomOut($event)" [ngStyle]="{'height':pdfViewerHeight +'px'}">
+  </div>
   <pdf-viewer [ngStyle]="{'margin-top': pdfMarginTop+'%', 'margin-left': pdfMarginLeft+'%'}" *ngIf="!!currentPage"
     #pdf_viewer src="../../assets/data/private/buyuk-cevsen.pdf" [zoom]="zoom" (page-rendered)="pageRendered()"
     [render-text]="false" [show-all]="false" [original-size]="false" [page]="currentPage"></pdf-viewer>
