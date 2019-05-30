@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild, OnDestroy } from '@angular/core';
-import { PdfService, IPdfPage } from '../services/pdf.service';
+import { PdfService, IPdfPage } from '../../services/pdf.service';
 import { Subscription } from 'rxjs';
-import { PopupZoomComponent } from '../popup-zoom/popup-zoom.component';
+import { PopupZoomComponent } from '../../components/popup-zoom/popup-zoom.component';
 import { PopoverController } from '@ionic/angular';
 
 @Component({

@@ -9,9 +9,9 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { PopupZoomComponent } from './popup-zoom/popup-zoom.component';
-import { SettingsMenuComponent } from './settings-menu/settings-menu.component';
-import { ContentMenuComponent } from './content-menu/content-menu.component';
+import { PopupZoomComponent } from './components/popup-zoom/popup-zoom.component';
+import { SettingsMenuComponent } from './components/settings-menu/settings-menu.component';
+import { ContentMenuComponent } from './components/content-menu/content-menu.component';
 
 @NgModule({
   declarations: [

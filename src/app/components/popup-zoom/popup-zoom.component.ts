@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { take } from 'rxjs/operators';
-import { PdfService } from '../services/pdf.service';
+import { PdfService } from '../../services/pdf.service';
 
 @Component({
   selector: 'app-popup-zoom',
