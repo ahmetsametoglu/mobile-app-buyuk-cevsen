@@ -46,7 +46,7 @@ export class PdfService {
   }
 
 
-  private setCurrentPage(v: IPdfPage) {
+  setCurrentPage(v: IPdfPage) {
     this.currentPage.next(v);
     this.storage.set('lastPageNumber', v.pageNumber);
   }
@@ -69,6 +69,10 @@ export class PdfService {
 
   getZoomFactor() {
     return this.zoomFactor.asObservable();
+  }
+
+  getContentPages() {
+    return pdfInfo.pages.filter(p => p.showOnContentMenu);
   }
 
 }
