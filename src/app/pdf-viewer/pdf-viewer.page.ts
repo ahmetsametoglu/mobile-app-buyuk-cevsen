@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { PdfService } from '../services/pdf.service';
+import { PdfService, IPdfPage } from '../services/pdf.service';
 
 @Component({
   selector: 'app-pdf-viewer',
@@ -12,7 +12,7 @@ export class PdfViewerPage implements OnInit {
   zoom = 1;
   pdfMarginTop = 0;
   pdfMarginLeft = 0;
-  currentPage = 1;
+  currentPage: IPdfPage;
 
   constructor(private pdfService: PdfService) { }
 
@@ -21,6 +21,22 @@ export class PdfViewerPage implements OnInit {
 
   pageRendered() {
     this.pdfViewerHeight = this.ngPdfViewer.element.nativeElement.scrollHeight;
+  }
+
+  onSwipeRight() {
+    this.pdfService.beforePage(this.currentPage);
+  }
+
+  onSwipeLeft() {
+    this.pdfService.nextPage(this.currentPage);
+  }
+
+  onZoomIn(event) {
+    this.pdfService.scaleZoomFactor(event.scale);
+  }
+
+  onZoomOut(event) {
+    this.pdfService.scaleZoomFactor(event.scale);
   }
 
 }
