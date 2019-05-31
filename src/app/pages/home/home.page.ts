@@ -15,6 +15,11 @@ import { PopoverController } from '@ionic/angular';
       state('hide', style({ transform: 'translateX(-100%)', opacity: 0 })),
       transition('* => *', animate(500))
     ]),
+    trigger('settingsMenu', [
+      state('show', style({ transform: 'translateX(0)', opacity: 1 })),
+      state('hide', style({ transform: 'translateX(100%)', opacity: 0 })),
+      transition('* => *', animate(500))
+    ]),
     trigger('pageInfoAnimation', [
       state('show', style({ opacity: 1 })),
       state('hide', style({ opacity: 0 })),
@@ -83,9 +88,15 @@ export class HomePage implements OnInit, OnDestroy {
 
   onToggleContentMenu() {
     this.showContentMenu = !this.showContentMenu;
+    if (this.showContentMenu) {
+      this.showSettingsMenu = false;
+    }
   }
   onToggleSettingsMenu() {
     this.showSettingsMenu = !this.showSettingsMenu;
+    if (this.showSettingsMenu) {
+      this.showContentMenu = false;
+    }
   }
 
   pageRendered() {
