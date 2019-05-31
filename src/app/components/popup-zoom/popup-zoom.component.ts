@@ -13,8 +13,7 @@ export class PopupZoomComponent implements OnInit {
   zoomFactor = 1;
 
   ngOnInit() {
-    this.pdfService.getZoomFactor().pipe(take(1)).toPromise()
-      .then(zoomFactor => {
+    this.pdfService.getZoomFactor().subscribe(zoomFactor => {
         this.zoomFactor = zoomFactor;
       });
   }
