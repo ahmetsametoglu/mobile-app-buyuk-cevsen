@@ -1,1 +1,36 @@
-<div class="settings-menu">Settings Menu</div>
+<div class="settings-menu">
+
+    <div class="group-item zoom">
+        <div class="section-header">
+            Yakınlaştır/Uzaklaştır
+        </div>
+        <app-popup-zoom></app-popup-zoom>
+    </div>
+
+    <div class="group-item view-type">
+        <div class="section-header">
+            Görünen Sayfalar
+        </div>
+        <ion-select placeholder="seçiniz" (ionChange)="changeViewGroup($event)" [ngModel]="viewGroup">
+            <ion-select-option value="a">Sadece Arapça</ion-select-option>
+            <ion-select-option value="m">Sadece Meal</ion-select-option>
+            <ion-select-option value="am">Sadece Arapça ve Meal</ion-select-option>
+        </ion-select>
+    </div>
+
+    <div class="app-info">
+        <ion-button fill="outline" size="small" (click)="onNavigateOtherAppPage()">
+            <ion-icon name="apps" slot="start"></ion-icon> Diğer Uygulamalar
+        </ion-button>
+        <ion-button fill="outline" size="small" (click)="showMailSender()">
+            <ion-icon name="mail" slot="start"></ion-icon> Geri Bildirim
+        </ion-button>
+    </div>
+
+    <div class="close-button">
+        <ion-button shape="round" fill="outline" (click)="closeMenu()">
+            <ion-icon name="close" slot="icon-only"></ion-icon>
+        </ion-button>
+    </div>
+
+</div>

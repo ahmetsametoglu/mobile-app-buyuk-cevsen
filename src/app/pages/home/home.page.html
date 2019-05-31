@@ -23,8 +23,7 @@
     <app-content-menu (selectPage)="onSelectPage($event)"></app-content-menu>
   </div>
 
-  <div class="menu settings-menu" [@settingsMenu]='!!showSettingsMenu ? "show" :"hide"'
-  [ngStyle]="{'height':pdfViewerHeight +'px'}">
+  <div class="menu settings-menu" [@settingsMenu]='!!showSettingsMenu ? "show" :"hide"'>
     <app-settings-menu></app-settings-menu>
   </div>
 
