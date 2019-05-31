@@ -18,18 +18,29 @@
 
 <ion-content>
 
-  <div class="menu content-menu" [@contentMenu]='showContentMenu ? "show" :"hide"'>
+  <div class="menu content-menu" [@contentMenu]='showContentMenu ? "show" :"hide"'
+    [ngStyle]="{'height':pdfViewerHeight +'px'}">
     <app-content-menu (selectPage)="onSelectPage($event)"></app-content-menu>
   </div>
+
   <div class="menu settings-menu" *ngIf="showSettingsMenu">
     <app-settings-menu></app-settings-menu>
   </div>
+
   <div class="finger-swipe" (swipeleft)="onSwipeLeft($event)" (swiperight)="onSwipeRight($event)"
     (pinchin)="onZoomIn($event)" (pinchout)="onZoomOut($event)" [ngStyle]="{'height':pdfViewerHeight +'px'}">
   </div>
+
   <pdf-viewer [ngStyle]="{'margin-top': pdfMarginTop+'%', 'margin-left': pdfMarginLeft+'%'}" *ngIf="!!currentPage"
     #pdf_viewer src="../../assets/data/private/buyuk-cevsen.pdf" [zoom]="zoom" (page-rendered)="pageRendered()"
     [render-text]="false" [show-all]="false" [original-size]="false"
     [page]="!!currentPage ? currentPage.pageNumber : 1">
   </pdf-viewer>
+
+  <div class="page-info" *ngIf="currentPage && currentPage.description"
+    [@pageInfoAnimation]='showPageInfo ? "show" :"hide"'>
+    <div class="info">
+      {{currentPage.description}}
+    </div>
+  </div>
 </ion-content>

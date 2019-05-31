@@ -15,6 +15,11 @@ import { PopoverController } from '@ionic/angular';
       state('hide', style({ transform: 'translateX(-100%)', opacity: 0 })),
       transition('* => *', animate(500))
     ]),
+    trigger('pageInfoAnimation', [
+      state('show', style({ opacity: 1 })),
+      state('hide', style({ opacity: 0 })),
+      transition('show => hide', animate(1000))
+    ]),
   ]
 })
 export class HomePage implements OnInit, OnDestroy {
@@ -29,8 +34,9 @@ export class HomePage implements OnInit, OnDestroy {
   pdfMarginLeft = 0;
   currentPage: IPdfPage;
 
-  showContentMenu = true;
+  showContentMenu = false;
   showSettingsMenu = false;
+  showPageInfo = false;
 
   constructor(
     private pdfService: PdfService,
@@ -40,6 +46,9 @@ export class HomePage implements OnInit, OnDestroy {
   ngOnInit() {
     this.pageSubscription = this.pdfService.getCurrentPage().subscribe(page => {
       if (!!page) {
+        if (!this.currentPage || page.pageNumber !== this.currentPage.pageNumber) {
+          this.onShowPageInfo();
+        }
         this.currentPage = page;
         console.log('currentPage:', this.currentPage);
       }
@@ -107,5 +116,12 @@ export class HomePage implements OnInit, OnDestroy {
   centralizePdf() {
     this.pdfMarginLeft = (this.zoom - 1) * -110;
     this.pdfMarginTop = (this.zoom - 1) * -110;
+  }
+
+  onShowPageInfo() {
+    this.showPageInfo = true;
+    setTimeout(() => {
+      this.showPageInfo = false;
+    }, 300);
   }
 }
