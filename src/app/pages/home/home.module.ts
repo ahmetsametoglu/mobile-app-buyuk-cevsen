@@ -9,6 +9,7 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { HomePage } from './home.page';
 import { ContentMenuComponent } from 'src/app/components/content-menu/content-menu.component';
 import { SettingsMenuComponent } from 'src/app/components/settings-menu/settings-menu.component';
+import { PopupZoomComponent } from 'src/app/components/popup-zoom/popup-zoom.component';
 
 const routes: Routes = [
   {
@@ -25,9 +26,11 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     PdfViewerModule
   ],
-  declarations: [HomePage,
+  declarations: [
+    HomePage,
     SettingsMenuComponent,
-    ContentMenuComponent
+    ContentMenuComponent,
+    PopupZoomComponent
   ]
 })
 export class HomePageModule { }
