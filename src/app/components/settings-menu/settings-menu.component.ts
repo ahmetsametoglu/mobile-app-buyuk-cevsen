@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, Output, EventEmitter } from '@angular/core';
 import { IPdfPage, PdfService } from 'src/app/services/pdf.service';
 import { Subscription } from 'rxjs';
 
@@ -8,6 +8,9 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./settings-menu.component.scss'],
 })
 export class SettingsMenuComponent implements OnInit, OnDestroy {
+
+  @Output() closeMenu = new EventEmitter();
+
   viewGroup = 'am';
   pageSubscription: Subscription;
   currentPage: IPdfPage;
@@ -42,8 +45,8 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
 
   }
 
-  closeMenu() {
-
+  onCloseMenu() {
+    this.closeMenu.emit(true);
   }
 
 }
