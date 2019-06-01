@@ -32,7 +32,9 @@ export class PdfService {
 
       this.storage.get('lastPageNumber').then((val) => {
         if (!!val) {
-          const lastPage = this.activePages.find(p => p.pageNumber === Number(val));
+          const lastPage = this.activePages.find(p => p.pageNumber === Number(val))
+            || pdfInfo.pages.find(p => p.pageNumber === Number(val));
+
           this.setCurrentPage(lastPage);
         } else {
           const initialPage = this.activePages[0];
@@ -44,7 +46,7 @@ export class PdfService {
 
   private updateActivePages(viewGroupName: ViewGroupName) {
     this.activePages = viewGroupName === ViewGroupName.arapca_meal ? [...pdfInfo.pages]
-      : pdfInfo.pages.filter(p => p.group === viewGroupName);
+      : pdfInfo.pages.filter(p => p.group === viewGroupName).map((p, index) => ({ ...p, pageIndex: index }));
 
     this.pages.next(this.activePages);
   }
@@ -54,17 +56,7 @@ export class PdfService {
       const firstPage = this.activePages[0];
       this.setCurrentPage(firstPage);
     } else {
-
-      const viewGroup = this.viewGroup.value;
-      let beforePage = null;
-
-      if (viewGroup.name === ViewGroupName.arapca_meal) {
-        beforePage = this.activePages[currentPage.pageIndex - 1];
-      } else {
-        const beforePages = this.activePages.slice(0, currentPage.pageIndex).reverse();
-        beforePage = beforePages.find(p => p.pageIndex < currentPage.pageIndex);
-      }
-
+      const beforePage = this.activePages[currentPage.pageIndex - 1];
       this.setCurrentPage(beforePage);
     }
   }
@@ -74,15 +66,7 @@ export class PdfService {
       const lastPage = this.activePages[pdfInfo.pageCount - 1];
       this.setCurrentPage(lastPage);
     } else {
-      const viewGroup = this.viewGroup.value;
-      let nextPage = null;
-
-      if (viewGroup.name === ViewGroupName.arapca_meal) {
-        nextPage = this.activePages[currentPage.pageIndex + 1];
-      } else {
-        nextPage = this.activePages.find(p => p.pageIndex > currentPage.pageIndex);
-      }
-
+      const nextPage = this.activePages[currentPage.pageIndex + 1];
       this.setCurrentPage(nextPage);
     }
   }
