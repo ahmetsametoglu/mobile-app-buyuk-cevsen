@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy, Output, EventEmitter } from '@angular/core';
-import { IPdfPage, PdfService } from 'src/app/services/pdf.service';
+import { IPdfPage, PdfService, IViewGroup, ViewGroupName, NavigationSide } from 'src/app/services/pdf.service';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -11,10 +11,10 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
 
   @Output() closeMenu = new EventEmitter();
 
-  viewGroup = 'am';
-  navSide = 'left';
   pageSubscription: Subscription;
   currentPage: IPdfPage;
+  viewGroupName: ViewGroupName;
+  navigationSide: NavigationSide;
 
 
   constructor(private pdfService: PdfService) { }
@@ -23,6 +23,14 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
     this.pageSubscription = this.pdfService.getCurrentPage().subscribe(page => {
       if (!!page) {
         this.currentPage = page;
+      }
+    });
+
+    this.pageSubscription = this.pdfService.getViewGroup().subscribe(viewGroup => {
+      if (!!viewGroup) {
+        console.log(viewGroup);
+        this.viewGroupName = viewGroup.name;
+        this.navigationSide = viewGroup.navSide;
       }
     });
 
@@ -35,8 +43,8 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
   }
 
   changeViewGroup(event) {
-    this.viewGroup = event.detail.value;
-    this.pdfService.setViewGroup(this.viewGroup);
+    this.viewGroupName = event.detail.value;
+    this.pdfService.setViewGroup(this.viewGroupName);
   }
 
   onNavigateOtherAppPage() {
@@ -52,7 +60,8 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
   }
 
   changeNavSide(event) {
-    console.log(event.detail.value);
+    this.navigationSide = event.detail.value;
+    this.pdfService.saveNavSide(this.viewGroupName, this.navigationSide);
   }
 
 }

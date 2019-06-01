@@ -11,7 +11,7 @@
         <div class="section-header">
             Görünen Sayfalar
         </div>
-        <ion-select placeholder="seçiniz" (ionChange)="changeViewGroup($event)" [ngModel]="viewGroup">
+        <ion-select placeholder="seçiniz" (ionChange)="changeViewGroup($event)" [ngModel]="viewGroupName">
             <ion-select-option value="a">Sadece Arapça</ion-select-option>
             <ion-select-option value="m">Sadece Meal</ion-select-option>
             <ion-select-option value="am">Arapça ve Meal</ion-select-option>
@@ -22,7 +22,7 @@
         <div class="section-header">
             Sayfa Geçiş Yönü
         </div>
-        <ion-radio-group class="page-nav-side" radio-group (ionChange)="changeNavSide($event)" [ngModel]="navSide">
+        <ion-radio-group class="page-nav-side" radio-group (ionChange)="changeNavSide($event)" [ngModel]="navigationSide">
             <ion-item no-lines>
                 <ion-icon name="return-left"></ion-icon>
                 <ion-radio color="danger" value="left"></ion-radio>
