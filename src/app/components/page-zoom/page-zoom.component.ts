@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { take } from 'rxjs/operators';
 import { PdfService } from '../../services/pdf.service';
 
 @Component({
-  selector: 'app-popup-zoom',
-  templateUrl: './popup-zoom.component.html',
-  styleUrls: ['./popup-zoom.component.scss'],
+  selector: 'app-page-zoom',
+  templateUrl: './page-zoom.component.html',
+  styleUrls: ['./page-zoom.component.scss'],
 })
-export class PopupZoomComponent implements OnInit {
+export class PageZoomComponent implements OnInit {
 
   constructor(private pdfService: PdfService) { }
   zoomFactor = 1;

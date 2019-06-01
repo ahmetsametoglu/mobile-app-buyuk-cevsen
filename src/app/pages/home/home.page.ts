@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild, OnDestroy } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 import { PdfService, IPdfPage } from '../../services/pdf.service';
 import { Subscription } from 'rxjs';
-import { PopupZoomComponent } from '../../components/popup-zoom/popup-zoom.component';
+import { PageZoomComponent } from '../../components/page-zoom/page-zoom.component';
 import { PopoverController } from '@ionic/angular';
 
 @Component({
@@ -78,10 +78,10 @@ export class HomePage implements OnInit, OnDestroy {
 
   async onShowZoomMenu(ev) {
     const popover = await this.popoverController.create({
-      component: PopupZoomComponent,
+      component: PageZoomComponent,
       event: ev,
       translucent: true,
-      cssClass: 'zoom-popover'
+      cssClass: 'page-zoom'
     });
     await popover.present();
   }
