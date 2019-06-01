@@ -34,7 +34,8 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
   }
 
   changeViewGroup(event) {
-    console.log(event);
+    this.viewGroup = event.detail.value;
+    this.pdfService.setViewGroup(this.viewGroup);
   }
 
   onNavigateOtherAppPage() {

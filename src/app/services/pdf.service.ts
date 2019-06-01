@@ -8,6 +8,7 @@ import { Storage } from '@ionic/storage';
 })
 export class PdfService {
   private currentPage: BehaviorSubject<IPdfPage> = new BehaviorSubject(null);
+  private viewGroup: BehaviorSubject<string> = new BehaviorSubject('am');
   private zoomFactor: BehaviorSubject<number> = new BehaviorSubject(0);
 
   constructor(private storage: Storage) {
@@ -27,21 +28,50 @@ export class PdfService {
         this.zoomFactor.next(val);
       }
     });
+
+    this.storage.get('viewGroup').then((val) => {
+      if (!!val) {
+        this.viewGroup.next(val);
+      }
+    });
   }
 
   beforePage(currentPage: IPdfPage) {
     if (currentPage.pageIndex <= 0) {
-      this.setCurrentPage(pdfInfo.pages[0]);
+      const firstPage = pdfInfo.pages[0];
+      this.setCurrentPage(firstPage);
     } else {
-      this.setCurrentPage(pdfInfo.pages[currentPage.pageIndex - 1]);
+
+      const viewGroup = this.viewGroup.value;
+      let beforePage = null;
+
+      if (viewGroup === 'am') {
+        beforePage = pdfInfo.pages[currentPage.pageIndex - 1];
+      } else {
+        const beforePages = pdfInfo.pages.slice(0, currentPage.pageIndex).reverse();
+        beforePage = beforePages.find(p => p.pageIndex < currentPage.pageIndex && p.group === viewGroup);
+      }
+
+      this.setCurrentPage(beforePage);
     }
   }
 
   nextPage(currentPage: IPdfPage) {
     if (currentPage.pageIndex >= pdfInfo.pageCount - 1) {
-      this.setCurrentPage(pdfInfo.pages[pdfInfo.pageCount - 1]);
+      const lastPage = pdfInfo.pages[pdfInfo.pageCount - 1];
+      this.setCurrentPage(lastPage);
     } else {
-      this.setCurrentPage(pdfInfo.pages[currentPage.pageIndex + 1]);
+      const viewGroup = this.viewGroup.value;
+      let nextPage = null;
+
+      if (viewGroup === 'am') {
+        nextPage = pdfInfo.pages[currentPage.pageIndex + 1];
+      } else {
+        const nextPages = pdfInfo.pages.slice(currentPage.pageIndex, pdfInfo.pages.length);
+        nextPage = nextPages.find(p => p.pageIndex > currentPage.pageIndex && p.group === viewGroup);
+      }
+
+      this.setCurrentPage(nextPage);
     }
   }
 
@@ -73,6 +103,18 @@ export class PdfService {
 
   getContentPages() {
     return pdfInfo.pages.filter(p => p.showOnContentMenu);
+  }
+
+  setViewGroup(viewGroup: string) {
+    this.storage.set('viewGroup', viewGroup);
+    if (viewGroup !== 'am' && this.currentPage.value.group !== 'am' && viewGroup !== this.currentPage.value.group) {
+      if (viewGroup === 'm') {
+        this.currentPage.next(pdfInfo.pages[this.currentPage.value.pageIndex + 1]);
+      } else if (viewGroup === 'a') {
+        this.currentPage.next(pdfInfo.pages[this.currentPage.value.pageIndex - 1]);
+      }
+    }
+    this.viewGroup.next(viewGroup);
   }
 
 }
