@@ -10,6 +10,7 @@ import { HomePage } from './home.page';
 import { ContentMenuComponent } from 'src/app/components/content-menu/content-menu.component';
 import { SettingsMenuComponent } from 'src/app/components/settings-menu/settings-menu.component';
 import { PageZoomComponent } from 'src/app/components/page-zoom/page-zoom.component';
+import { PageBarComponent } from 'src/app/components/page-bar/page-bar.component';
 
 const routes: Routes = [
   {
@@ -30,7 +31,8 @@ const routes: Routes = [
     HomePage,
     SettingsMenuComponent,
     ContentMenuComponent,
-    PageZoomComponent
+    PageZoomComponent,
+    PageBarComponent
   ]
 })
 export class HomePageModule { }
