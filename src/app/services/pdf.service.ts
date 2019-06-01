@@ -10,38 +10,48 @@ export class PdfService {
   private currentPage: BehaviorSubject<IPdfPage> = new BehaviorSubject(null);
   private viewGroup: BehaviorSubject<IViewGroup> = new BehaviorSubject(null);
   private zoomFactor: BehaviorSubject<number> = new BehaviorSubject(0);
+  private activePages = [];
+  private pages: BehaviorSubject<IPdfPage[]> = new BehaviorSubject(this.activePages);
 
   constructor(private storage: Storage) {
-
-    this.storage.get('lastPageNumber').then((val) => {
-      if (!!val) {
-        const lastPage = pdfInfo.pages.find(p => p.pageNumber === Number(val));
-        this.currentPage.next(lastPage);
-      } else {
-        const initialPage = pdfInfo.pages[0];
-        this.currentPage.next(initialPage);
-      }
-    });
-
     this.storage.get('zoomFactor').then((val) => {
       if (!!val) {
         this.zoomFactor.next(val);
       }
     });
 
-    this.storage.get('viewGroup').then((val) => {
-      if (!!val) {
-        this.viewGroup.next(val);
+    this.storage.get('viewGroup').then((viewGroup: IViewGroup) => {
+      if (!!viewGroup) {
+        this.viewGroup.next(viewGroup);
       } else {
-        const defaultViewGroup = { name: ViewGroupName.arapca_meal, navSide: NavigationSide.right } as IViewGroup;
-        this.viewGroup.next(defaultViewGroup);
+        viewGroup = { name: ViewGroupName.arapca_meal, navSide: NavigationSide.right } as IViewGroup;
+        this.viewGroup.next(viewGroup);
       }
+
+      this.updateActivePages(viewGroup.name);
+
+      this.storage.get('lastPageNumber').then((val) => {
+        if (!!val) {
+          const lastPage = this.activePages.find(p => p.pageNumber === Number(val));
+          this.setCurrentPage(lastPage);
+        } else {
+          const initialPage = this.activePages[0];
+          this.setCurrentPage(initialPage);
+        }
+      });
     });
+  }
+
+  private updateActivePages(viewGroupName: ViewGroupName) {
+    this.activePages = viewGroupName === ViewGroupName.arapca_meal ? [...pdfInfo.pages]
+      : pdfInfo.pages.filter(p => p.group === viewGroupName);
+
+    this.pages.next(this.activePages);
   }
 
   beforePage(currentPage: IPdfPage) {
     if (currentPage.pageIndex <= 0) {
-      const firstPage = pdfInfo.pages[0];
+      const firstPage = this.activePages[0];
       this.setCurrentPage(firstPage);
     } else {
 
@@ -49,10 +59,10 @@ export class PdfService {
       let beforePage = null;
 
       if (viewGroup.name === ViewGroupName.arapca_meal) {
-        beforePage = pdfInfo.pages[currentPage.pageIndex - 1];
+        beforePage = this.activePages[currentPage.pageIndex - 1];
       } else {
-        const beforePages = pdfInfo.pages.slice(0, currentPage.pageIndex).reverse();
-        beforePage = beforePages.find(p => p.pageIndex < currentPage.pageIndex && p.group === viewGroup.name);
+        const beforePages = this.activePages.slice(0, currentPage.pageIndex).reverse();
+        beforePage = beforePages.find(p => p.pageIndex < currentPage.pageIndex);
       }
 
       this.setCurrentPage(beforePage);
@@ -61,17 +71,16 @@ export class PdfService {
 
   nextPage(currentPage: IPdfPage) {
     if (currentPage.pageIndex >= pdfInfo.pageCount - 1) {
-      const lastPage = pdfInfo.pages[pdfInfo.pageCount - 1];
+      const lastPage = this.activePages[pdfInfo.pageCount - 1];
       this.setCurrentPage(lastPage);
     } else {
       const viewGroup = this.viewGroup.value;
       let nextPage = null;
 
       if (viewGroup.name === ViewGroupName.arapca_meal) {
-        nextPage = pdfInfo.pages[currentPage.pageIndex + 1];
+        nextPage = this.activePages[currentPage.pageIndex + 1];
       } else {
-        const nextPages = pdfInfo.pages.slice(currentPage.pageIndex, pdfInfo.pages.length);
-        nextPage = nextPages.find(p => p.pageIndex > currentPage.pageIndex && p.group === viewGroup.name);
+        nextPage = this.activePages.find(p => p.pageIndex > currentPage.pageIndex);
       }
 
       this.setCurrentPage(nextPage);
@@ -80,6 +89,12 @@ export class PdfService {
 
 
   setCurrentPage(v: IPdfPage) {
+    console.log('setCurrentPage', v);
+
+    if (!v) {
+      return;
+    }
+
     this.currentPage.next(v);
     this.storage.set('lastPageNumber', v.pageNumber);
   }
@@ -108,12 +123,18 @@ export class PdfService {
     return this.zoomFactor.asObservable();
   }
 
-  getContentPages() {
-    return pdfInfo.pages.filter(p => p.showOnContentMenu);
+  getActivePages() {
+    return this.pages.asObservable();
   }
 
   async setViewGroup(viewGroupName: ViewGroupName) {
     const currentPage = this.currentPage.value;
+    console.log(viewGroupName, currentPage);
+
+    if (!currentPage) {
+      return;
+    }
+
     let viewGroup: IViewGroup = null;
 
     const viewGroups = await this.storage.get('ViewGroups') as IViewGroup[] || [];
@@ -125,12 +146,13 @@ export class PdfService {
     this.storage.set('viewGroup', viewGroup);
     if (viewGroup.name !== ViewGroupName.arapca_meal && currentPage.group !== ViewGroupName.arapca_meal && viewGroup.name !== currentPage.group) {
       if (viewGroup.name === ViewGroupName.meal) {
-        this.currentPage.next(pdfInfo.pages[this.currentPage.value.pageIndex + 1]);
+        this.setCurrentPage(this.activePages[this.currentPage.value.pageIndex + 1]);
       } else if (viewGroup.name === ViewGroupName.arapca) {
-        this.currentPage.next(pdfInfo.pages[this.currentPage.value.pageIndex - 1]);
+        this.setCurrentPage(this.activePages[this.currentPage.value.pageIndex - 1]);
       }
     }
     this.viewGroup.next(viewGroup);
+    this.updateActivePages(viewGroup.name);
     this.storage.set('viewGroup', viewGroup);
     this.updateViewGroups(viewGroup);
   }
