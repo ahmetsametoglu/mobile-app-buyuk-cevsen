@@ -12,6 +12,7 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
   @Output() closeMenu = new EventEmitter();
 
   viewGroup = 'am';
+  navSide = 'left';
   pageSubscription: Subscription;
   currentPage: IPdfPage;
 
@@ -48,6 +49,10 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
 
   onCloseMenu() {
     this.closeMenu.emit(true);
+  }
+
+  changeNavSide(event) {
+    console.log(event.detail.value);
   }
 
 }
