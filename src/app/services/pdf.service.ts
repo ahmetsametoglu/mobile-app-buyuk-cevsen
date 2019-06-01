@@ -8,7 +8,7 @@ import { Storage } from '@ionic/storage';
 })
 export class PdfService {
   private currentPage: BehaviorSubject<IPdfPage> = new BehaviorSubject(null);
-  private viewGroup: BehaviorSubject<string> = new BehaviorSubject('am');
+  private viewGroup: BehaviorSubject<string> = new BehaviorSubject(null);
   private zoomFactor: BehaviorSubject<number> = new BehaviorSubject(0);
 
   constructor(private storage: Storage) {
@@ -32,6 +32,8 @@ export class PdfService {
     this.storage.get('viewGroup').then((val) => {
       if (!!val) {
         this.viewGroup.next(val);
+      } else {
+        this.viewGroup.next('am');
       }
     });
   }
@@ -126,5 +128,20 @@ export interface IPdfPage {
   description: string;
   showOnContentMenu: boolean;
   group: string;
+}
+
+export interface IViewGroup {
+  name: ViewGroupName;
+  navSide: NavigationSide;
+}
+
+export enum ViewGroupName {
+  arapca = 'a',
+  meal = 'm',
+  arapca_meal = 'am'
+}
+export enum NavigationSide {
+  left,
+  right
 }
 
