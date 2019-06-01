@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, OnDestroy } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
-import { PdfService, IPdfPage } from '../../services/pdf.service';
+import { PdfService, IPdfPage, IViewGroup, NavigationSide } from '../../services/pdf.service';
 import { Subscription } from 'rxjs';
 import { PageZoomComponent } from '../../components/page-zoom/page-zoom.component';
 import { PopoverController } from '@ionic/angular';
@@ -28,16 +28,19 @@ import { PopoverController } from '@ionic/angular';
   ]
 })
 export class HomePage implements OnInit, OnDestroy {
+  navigationSide = NavigationSide;
   @ViewChild('pdf_viewer') ngPdfViewer;
   pdfViewerHeight = 0;
 
   pageSubscription: Subscription;
+  viewGroupSubscription: Subscription;
   zoomSubscription: Subscription;
 
   zoom = 1;
   pdfMarginTop = 0;
   pdfMarginLeft = 0;
   currentPage: IPdfPage;
+  viewGroup: IViewGroup;
 
   showContentMenu = false;
   showSettingsMenu = false;
@@ -63,6 +66,9 @@ export class HomePage implements OnInit, OnDestroy {
       this.centralizePdf();
       console.log('zoom:', this.zoom);
     });
+    this.viewGroupSubscription = this.pdfService.getViewGroup().subscribe(viewGroup => {
+      this.viewGroup = viewGroup;
+    });
   }
 
   ngOnDestroy() {
@@ -72,6 +78,10 @@ export class HomePage implements OnInit, OnDestroy {
 
     if (this.zoomSubscription) {
       this.zoomSubscription.unsubscribe();
+    }
+
+    if (this.viewGroupSubscription) {
+      this.viewGroupSubscription.unsubscribe();
     }
   }
 
@@ -103,12 +113,13 @@ export class HomePage implements OnInit, OnDestroy {
     this.pdfViewerHeight = this.ngPdfViewer.element.nativeElement.scrollHeight;
   }
 
-  onSwipeRight() {
-    this.pdfService.beforePage(this.currentPage);
-  }
 
-  onSwipeLeft() {
-    this.pdfService.nextPage(this.currentPage);
+  onChangePage(navSide: NavigationSide) {
+    if (this.viewGroup.navSide === navSide) {
+      this.pdfService.nextPage(this.currentPage);
+    } else {
+      this.pdfService.beforePage(this.currentPage);
+    }
   }
 
   onZoomIn(event) {

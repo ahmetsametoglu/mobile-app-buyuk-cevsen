@@ -27,8 +27,9 @@
     <app-settings-menu (closeMenu)="onToggleSettingsMenu()"></app-settings-menu>
   </div>
 
-  <div class="finger-swipe" (swipeleft)="onSwipeLeft($event)" (swiperight)="onSwipeRight($event)"
-    (pinchin)="onZoomIn($event)" (pinchout)="onZoomOut($event)" [ngStyle]="{'height':pdfViewerHeight +'px'}">
+  <div class="finger-swipe" (swipeleft)="onChangePage(navigationSide.right)"
+    (swiperight)="onChangePage(navigationSide.left)" (pinchin)="onZoomIn($event)" (pinchout)="onZoomOut($event)"
+    [ngStyle]="{'height':pdfViewerHeight +'px'}">
   </div>
 
   <pdf-viewer [ngStyle]="{'margin-top': pdfMarginTop+'%', 'margin-left': pdfMarginLeft+'%'}" *ngIf="!!currentPage"
