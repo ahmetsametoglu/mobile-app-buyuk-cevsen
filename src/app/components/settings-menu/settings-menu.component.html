@@ -22,7 +22,8 @@
         <div class="section-header">
             Sayfa Geçiş Yönü
         </div>
-        <ion-radio-group class="page-nav-side" radio-group (ionChange)="changeNavSide($event)" [ngModel]="navigationSide">
+        <ion-radio-group class="page-nav-side" radio-group (ionChange)="changeNavSide($event)"
+            [ngModel]="navigationSide">
             <ion-item no-lines>
                 <ion-icon name="return-left"></ion-icon>
                 <ion-radio color="danger" value="left"></ion-radio>
@@ -32,9 +33,14 @@
                 <ion-icon name="return-right"></ion-icon>
                 <ion-radio color="danger" value="right"></ion-radio>
             </ion-item>
-
         </ion-radio-group>
+    </div>
 
+    <div class="group-item">
+        <div class="section-header">
+            Sayfalar
+        </div>
+        <app-page-bar></app-page-bar>
     </div>
 
     <div class="app-info">
