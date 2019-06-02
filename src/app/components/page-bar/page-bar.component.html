@@ -2,8 +2,8 @@
   <div class="range-bar">
     <ion-range color="light" [value]="currentPage.pageIndex" (ionChange)="onSelectPage($event)"
       [min]="firstPage.pageIndex" [max]="lastPage.pageIndex">
-      <ion-label slot="start" color="light">{{firstPage.pageNumber}}</ion-label>
-      <ion-label slot="end" color="light">{{lastPage.pageNumber}}</ion-label>
+      <ion-label slot="start" color="danger">{{firstPage.pageNumber}}</ion-label>
+      <ion-label slot="end" color="danger">{{lastPage.pageNumber}}</ion-label>
     </ion-range>
   </div>
 

@@ -1,5 +1,9 @@
+:host {
+    display: contents;
+}
+
 .page-bar {
-    padding: 10px;
+    padding: 2px;
     width: 100%;
     color: #fff;
 
@@ -13,11 +17,14 @@
         width: 100%;
 
         ion-range {
+            --height: 10px;
             width: 100%;
         }
     }
 
     .info {
+        width: 100%;
+
         .pageName {
             text-align: center;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
