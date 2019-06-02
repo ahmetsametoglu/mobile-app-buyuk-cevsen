@@ -1,5 +1,10 @@
 <div class="settings-menu">
 
+    <ion-item class="night-mode-item" lines="none">
+        <ion-label>Gece Modu</ion-label>
+        <ion-toggle color="danger"  mode="md" (ionChange)="onChangeNightViewMode($event)"></ion-toggle>
+    </ion-item>
+
     <div class="group-item zoom">
         <div class="section-header">
             Yakınlaştır/Uzaklaştır
@@ -24,12 +29,12 @@
         </div>
         <ion-radio-group class="page-nav-side" radio-group (ionChange)="changeNavSide($event)"
             [ngModel]="navigationSide">
-            <ion-item no-lines>
+            <ion-item lines="none">
                 <ion-icon name="return-left"></ion-icon>
                 <ion-radio color="danger" value="left"></ion-radio>
             </ion-item>
 
-            <ion-item no-lines>
+            <ion-item lines="none">
                 <ion-icon name="return-right"></ion-icon>
                 <ion-radio color="danger" value="right"></ion-radio>
             </ion-item>
@@ -42,6 +47,7 @@
         </div>
         <app-page-bar></app-page-bar>
     </div>
+
 
     <div class="app-info">
         <ion-button fill="outline" size="small" (click)="onNavigateOtherAppPage()">

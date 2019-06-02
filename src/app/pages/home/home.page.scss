@@ -21,6 +21,13 @@ pdf-viewer {
 	display: block;
 }
 
+.night-view{
+	-webkit-filter: invert(100%) !important;
+}
+.light-view{
+	-webkit-filter: none;
+}
+
 .page-info {
 	position: fixed;
 	bottom: 5px;

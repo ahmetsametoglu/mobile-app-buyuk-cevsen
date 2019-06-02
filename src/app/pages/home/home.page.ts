@@ -46,6 +46,8 @@ export class HomePage implements OnInit, OnDestroy {
   showSettingsMenu = false;
   showPageInfo = false;
 
+  isNightModeActive = false;
+
   constructor(
     private pdfService: PdfService,
     private popoverController: PopoverController

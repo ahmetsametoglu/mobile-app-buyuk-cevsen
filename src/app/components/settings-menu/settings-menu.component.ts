@@ -1,5 +1,5 @@
-import { Component, OnInit, OnDestroy, Output, EventEmitter } from '@angular/core';
-import { IPdfPage, PdfService, IViewGroup, ViewGroupName, NavigationSide } from 'src/app/services/pdf.service';
+import { Component, OnInit, OnDestroy, Output, EventEmitter, Input } from '@angular/core';
+import { IPdfPage, PdfService, ViewGroupName, NavigationSide } from 'src/app/services/pdf.service';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -10,6 +10,8 @@ import { Subscription } from 'rxjs';
 export class SettingsMenuComponent implements OnInit, OnDestroy {
 
   @Output() closeMenu = new EventEmitter();
+  @Output() changeNightViewMode = new EventEmitter<boolean>();
+  @Input() isNightModeActive: boolean;
 
   pageSubscription: Subscription;
   currentPage: IPdfPage;
@@ -62,6 +64,11 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
   changeNavSide(event) {
     this.navigationSide = event.detail.value;
     this.pdfService.saveNavSide(this.viewGroupName, this.navigationSide);
+  }
+
+  onChangeNightViewMode(event) {
+    const isNightViewActive = event.detail.checked;
+    this.changeNightViewMode.emit(isNightViewActive);
   }
 
 }

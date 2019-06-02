@@ -24,7 +24,9 @@
   </div>
 
   <div class="menu settings-menu" [@settingsMenu]='!!showSettingsMenu ? "show" :"hide"'>
-    <app-settings-menu (closeMenu)="onToggleSettingsMenu()"></app-settings-menu>
+    <app-settings-menu (closeMenu)="onToggleSettingsMenu()" (changeNightViewMode)="isNightModeActive=$event"
+      [isNightModeActive]="isNightModeActive">
+    </app-settings-menu>
   </div>
 
   <div class="finger-swipe" (swipeleft)="onChangePage(navigationSide.right)"
@@ -34,8 +36,8 @@
 
   <pdf-viewer [ngStyle]="{'margin-top': pdfMarginTop+'%', 'margin-left': pdfMarginLeft+'%'}" *ngIf="!!currentPage"
     #pdf_viewer src="../../assets/data/private/buyuk-cevsen.pdf" [zoom]="zoom" (page-rendered)="pageRendered()"
-    [render-text]="false" [show-all]="false" [original-size]="false"
-    [page]="!!currentPage ? currentPage.pageNumber : 1">
+    [render-text]="false" [show-all]="false" [original-size]="false" [page]="!!currentPage ? currentPage.pageNumber : 1"
+    [ngClass]="{'night-view': isNightModeActive, 'light-view': isNightModeActive}">
   </pdf-viewer>
 
   <div class="page-info" *ngIf="currentPage && currentPage.description"
