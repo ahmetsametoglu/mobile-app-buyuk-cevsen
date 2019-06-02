@@ -1,18 +1,20 @@
-<div *ngIf="currentPage" class="page-bar">
+<div *ngIf="!!selectedPage && !!currentPage" class="page-bar">
   <div class="range-bar">
-    <ion-range color="light" [value]="currentPage.pageIndex" (ionChange)="onSelectPage($event)"
-      [min]="firstPage.pageIndex" [max]="lastPage.pageIndex">
-      <ion-label slot="start" color="danger">{{firstPage.pageNumber}}</ion-label>
-      <ion-label slot="end" color="danger">{{lastPage.pageNumber}}</ion-label>
+    <ion-range color="light" [value]="selectedPage?.pageIndex" (ionChange)="onSelectPage($event)"
+      [min]="firstPage?.pageIndex" [max]="lastPage?.pageIndex">
+      <ion-label slot="start" color="danger">{{firstPage?.pageNumber}}</ion-label>
+      <ion-label slot="end" color="danger">{{lastPage?.pageNumber}}</ion-label>
     </ion-range>
   </div>
 
   <div class="info">
     <div class="pageName">
-      sayfa: {{currentPage.pageNumber}}
+      sayfa: {{selectedPage?.pageNumber}}
     </div>
-    <div class="description" *ngIf="currentPage.description">
-      {{currentPage.description}}
+    <div class="description" *ngIf="selectedPage.description">
+      {{selectedPage?.description}}
     </div>
   </div>
+  <ion-button class="button-go"color="light" size='small' fill='outline' *ngIf="currentPage.pageNumber!==selectedPage.pageNumber"
+    (click)="goToPage()">Git</ion-button>
 </div>
