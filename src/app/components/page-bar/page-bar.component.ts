@@ -24,9 +24,6 @@ export class PageBarComponent implements OnInit, OnDestroy {
       this.activePages = pages;
       this.firstPage = pages[0];
       this.lastPage = pages[pages.length - 1];
-      console.log(this.firstPage);
-      console.log(this.lastPage);
-      console.log(this.activePages);
 
     });
 
