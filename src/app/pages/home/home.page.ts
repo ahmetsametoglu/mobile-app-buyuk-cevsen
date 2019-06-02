@@ -31,6 +31,7 @@ export class HomePage implements OnInit, OnDestroy {
   navigationSide = NavigationSide;
   @ViewChild('pdf_viewer') ngPdfViewer;
   pdfViewerHeight = 0;
+  title = 'Büyük Cevşen';
 
   pageSubscription: Subscription;
   viewGroupSubscription: Subscription;
@@ -103,11 +104,21 @@ export class HomePage implements OnInit, OnDestroy {
     if (this.showContentMenu) {
       this.showSettingsMenu = false;
     }
+    if (this.showContentMenu) {
+      this.title = 'İçindekiler';
+    } else if (!this.showSettingsMenu) {
+      this.title = 'Büyük Cevşen';
+    }
   }
   onToggleSettingsMenu() {
     this.showSettingsMenu = !this.showSettingsMenu;
     if (this.showSettingsMenu) {
       this.showContentMenu = false;
+    }
+    if (this.showSettingsMenu) {
+      this.title = 'Ayarlar';
+    } else if (!this.showContentMenu) {
+      this.title = 'Büyük Cevşen';
     }
   }
 
