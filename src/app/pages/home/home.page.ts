@@ -4,6 +4,8 @@ import { PdfService, IPdfPage, IViewGroup, NavigationSide } from '../../services
 import { Subscription } from 'rxjs';
 import { PageZoomComponent } from '../../components/page-zoom/page-zoom.component';
 import { PopoverController } from '@ionic/angular';
+const ScrollLeftFactor = 0.394;
+const ScrollTopFactor = 0.08;
 
 @Component({
   selector: 'app-home',
@@ -153,8 +155,8 @@ export class HomePage implements OnInit, OnDestroy {
       const element = this.ngPdfViewer.element.nativeElement.firstChild;
       console.log(element.scrollHeight, element.scrollWidth);
 
-      const scrollLeft = element.scrollWidth * (this.zoom - 1) * 0.42;
-      const scrollTop = element.scrollHeight * 0.08;
+      const scrollLeft = element.scrollWidth * (this.zoom - 1) * ScrollLeftFactor;
+      const scrollTop = element.scrollHeight * ScrollTopFactor;
       this.pdfContainer.nativeElement.scrollTop = scrollTop;
       this.ngPdfViewer.element.nativeElement.firstChild.scrollLeft = scrollLeft;
     }
