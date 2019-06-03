@@ -14,7 +14,9 @@
     <div class="description" *ngIf="selectedPage.description">
       {{selectedPage?.description}}
     </div>
+    <div class="button-go">
+      <ion-button color="light" size='small' fill='outline' expand="block" (click)="goToPage()"
+        [disabled]="currentPage.pageNumber===selectedPage.pageNumber">Git</ion-button>
+    </div>
   </div>
-  <ion-button class="button-go"color="light" size='small' fill='outline' *ngIf="currentPage.pageNumber!==selectedPage.pageNumber"
-    (click)="goToPage()">Git</ion-button>
 </div>
