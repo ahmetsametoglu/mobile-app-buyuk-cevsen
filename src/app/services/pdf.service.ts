@@ -14,34 +14,44 @@ export class PdfService {
   private pages: BehaviorSubject<IPdfPage[]> = new BehaviorSubject(this.activePages);
 
   constructor(private storage: Storage) {
-    this.storage.get('zoomFactor').then((val) => {
-      if (!!val) {
-        this.zoomFactor.next(val);
-      }
-    });
+    this.initStorage();
+  }
 
-    this.storage.get('viewGroup').then((viewGroup: IViewGroup) => {
-      if (!!viewGroup) {
-        this.viewGroup.next(viewGroup);
-      } else {
-        viewGroup = { name: ViewGroupName.arapca_meal, navSide: NavigationSide.right } as IViewGroup;
-        this.viewGroup.next(viewGroup);
-      }
+  initStorage() {
+    this.initViewGroupAndPages();
+    this.initLastPage();
+    this.initZoomFactor();
+  }
 
-      this.updateActivePages(viewGroup.name);
+  async initZoomFactor() {
+    const val = await this.storage.get('zoomFactor');
+    if (!!val) {
+      this.zoomFactor.next(val);
+    }
+  }
 
-      this.storage.get('lastPageNumber').then((val) => {
-        if (!!val) {
-          const lastPage = this.activePages.find(p => p.pageNumber === Number(val))
-            || pdfInfo.pages.find(p => p.pageNumber === Number(val));
+  async initLastPage() {
+    const val = await this.storage.get('lastPageNumber');
+    if (!!val) {
+      const lastPage = this.activePages.find(p => p.pageNumber === Number(val))
+        || pdfInfo.pages.find(p => p.pageNumber === Number(val));
 
-          this.setCurrentPage(lastPage);
-        } else {
-          const initialPage = this.activePages[0];
-          this.setCurrentPage(initialPage);
-        }
-      });
-    });
+      this.setCurrentPage(lastPage);
+    } else {
+      const initialPage = this.activePages[0];
+      this.setCurrentPage(initialPage);
+    }
+  }
+
+  async initViewGroupAndPages() {
+    let viewGroup = await this.storage.get('viewGroup') as IViewGroup;
+    if (!!viewGroup) {
+      this.viewGroup.next(viewGroup);
+    } else {
+      viewGroup = { name: ViewGroupName.arapca_meal, navSide: NavigationSide.right } as IViewGroup;
+      this.viewGroup.next(viewGroup);
+    }
+    this.updateActivePages(viewGroup.name);
   }
 
   private updateActivePages(viewGroupName: ViewGroupName) {
