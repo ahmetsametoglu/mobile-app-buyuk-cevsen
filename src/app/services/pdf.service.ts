@@ -159,7 +159,9 @@ export class PdfService {
   }
 
   private updateViewGroups(viewGroup: IViewGroup) {
-
+    if (!viewGroup.name || !viewGroup.navSide) {
+      return;
+    }
     this.storage.get('ViewGroups').then((result: IViewGroup[]) => {
       console.log('ViewGroups:', result);
 
