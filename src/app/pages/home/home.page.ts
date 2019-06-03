@@ -30,7 +30,8 @@ import { PopoverController } from '@ionic/angular';
 export class HomePage implements OnInit, OnDestroy {
   navigationSide = NavigationSide;
   @ViewChild('pdf_viewer') ngPdfViewer;
-  pdfViewerHeight = 0;
+  @ViewChild('pdf_container') pdfContainer;
+  fingerSwipeHeight = 0;
   title = 'Büyük Cevşen';
 
   pageSubscription: Subscription;
@@ -38,8 +39,6 @@ export class HomePage implements OnInit, OnDestroy {
   zoomSubscription: Subscription;
 
   zoom = 1;
-  pdfMarginTop = 0;
-  pdfMarginLeft = 0;
   currentPage: IPdfPage;
   viewGroup: IViewGroup;
 
@@ -123,7 +122,8 @@ export class HomePage implements OnInit, OnDestroy {
   }
 
   pageRendered() {
-    this.pdfViewerHeight = this.ngPdfViewer.element.nativeElement.scrollHeight;
+    this.calculateFingerSwipeHeight();
+    this.centralizePdf();
   }
 
 
@@ -149,8 +149,21 @@ export class HomePage implements OnInit, OnDestroy {
   }
 
   centralizePdf() {
-    this.pdfMarginLeft = (this.zoom - 1) * -110;
-    this.pdfMarginTop = (this.zoom - 1) * -110;
+    if (this.ngPdfViewer && this.pdfContainer) {
+      const element = this.ngPdfViewer.element.nativeElement.firstChild;
+      console.log(element.scrollHeight, element.scrollWidth);
+
+      const scrollLeft = element.scrollWidth * (this.zoom - 1) * 0.42;
+      const scrollTop = element.scrollHeight * 0.08;
+      this.pdfContainer.nativeElement.scrollTop = scrollTop;
+      this.ngPdfViewer.element.nativeElement.firstChild.scrollLeft = scrollLeft;
+    }
+  }
+
+  calculateFingerSwipeHeight() {
+    if (this.ngPdfViewer) {
+      this.fingerSwipeHeight = this.ngPdfViewer.element.nativeElement.firstChild.scrollHeight;
+    }
   }
 
   onShowPageInfo() {

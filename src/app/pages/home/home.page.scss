@@ -1,9 +1,10 @@
-.finger-swipe {
+.finger-gesture {
 	position: absolute;
 	z-index: 10;
 	width: 100%;
 	height: 100%;
-	touch-action: unset !important;
+	touch-action: pan-y !important;
+	overflow-y: scroll;
 }
 
 .menu {
@@ -11,21 +12,31 @@
 	z-index: 20;
 	width: 100%;
 	height: 100%;
-    background-color: rgba(31, 126, 27, 0.842);
+	background-color: rgba(31, 126, 27, 0.842);
+	overflow-y: scroll;
 }
 
 .content-menu {
 	overflow-y: scroll;
 }
 
-pdf-viewer {
-	display: block;
+.pdf-container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll;
+
+	.ng-pdf-viewer {
+		display: block;
+	}
 }
 
-.night-view{
+.night-view {
 	-webkit-filter: invert(100%) !important;
+	background-color: black;
 }
-.light-view{
+
+.light-view {
 	-webkit-filter: none;
 }
 

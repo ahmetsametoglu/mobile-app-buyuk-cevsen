@@ -18,8 +18,7 @@
 
 <ion-content>
 
-  <div class="menu content-menu" [@contentMenu]='!!showContentMenu ? "show" :"hide"'
-    [ngStyle]="{'height':pdfViewerHeight +'px'}">
+  <div class="menu content-menu" [@contentMenu]='!!showContentMenu ? "show" :"hide"'>
     <app-content-menu (selectPage)="onSelectPage($event)"></app-content-menu>
   </div>
 
@@ -29,16 +28,20 @@
     </app-settings-menu>
   </div>
 
-  <div class="finger-swipe" (swipeleft)="onChangePage(navigationSide.right)"
-    (swiperight)="onChangePage(navigationSide.left)" (pinchin)="onZoomIn($event)" (pinchout)="onZoomOut($event)"
-    [ngStyle]="{'height':pdfViewerHeight +'px'}">
-  </div>
 
-  <pdf-viewer [ngStyle]="{'margin-top': pdfMarginTop+'%', 'margin-left': pdfMarginLeft+'%'}" *ngIf="!!currentPage"
-    #pdf_viewer src="../../assets/data/private/buyuk-cevsen.pdf" [zoom]="zoom" (page-rendered)="pageRendered()"
-    [render-text]="false" [show-all]="false" [original-size]="false" [page]="!!currentPage ? currentPage.pageNumber : 1"
+  <div class="pdf-container" #pdf_container
     [ngClass]="{'night-view': isNightModeActive, 'light-view': isNightModeActive}">
-  </pdf-viewer>
+
+    <div class="finger-gesture" [ngStyle]="{'height':fingerSwipeHeight +'px'}"
+      (swipeleft)="onChangePage(navigationSide.right)" (swiperight)="onChangePage(navigationSide.left)"
+      (pinchin)="onZoomIn($event)" (pinchout)="onZoomOut($event)">
+    </div>
+
+    <pdf-viewer #pdf_viewer class="ng-pdf-viewer" *ngIf="!!currentPage" src="../../assets/data/private/buyuk-cevsen.pdf"
+      [zoom]="zoom" (page-rendered)="pageRendered()" [render-text]="false" [show-all]="false" [original-size]="false"
+      [page]="!!currentPage ? currentPage.pageNumber : 1">
+    </pdf-viewer>
+  </div>
 
   <div class="page-info" *ngIf="currentPage && currentPage.description"
     [@pageInfoAnimation]='showPageInfo ? "show" :"hide"'>
@@ -46,4 +49,5 @@
       {{currentPage.description}}
     </div>
   </div>
+
 </ion-content>
