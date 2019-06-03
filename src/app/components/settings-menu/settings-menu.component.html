@@ -1,10 +1,5 @@
 <div class="settings-menu">
-
-    <ion-item class="night-mode-item" lines="none">
-        <ion-label>Gece Modu</ion-label>
-        <ion-toggle color="danger"  mode="md" (ionChange)="onChangeNightViewMode($event)"></ion-toggle>
-    </ion-item>
-
+ 
     <div class="group-item zoom">
         <div class="section-header">
             Yakınlaştır/Uzaklaştır
@@ -40,14 +35,11 @@
             </ion-item>
         </ion-radio-group>
     </div>
-
-    <div class="group-item">
-        <div class="section-header">
-            Sayfalar
-        </div>
-        <app-page-bar></app-page-bar>
-    </div>
-
+    
+    <ion-item class="night-mode-item" lines="none">
+        <ion-label>Gece Modu</ion-label>
+        <ion-toggle color="danger"  mode="md" (ionChange)="onChangeNightViewMode($event)"></ion-toggle>
+    </ion-item>
 
     <div class="app-info">
         <ion-button fill="outline" size="small" (click)="onNavigateOtherAppPage()">

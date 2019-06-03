@@ -47,6 +47,7 @@
 }
 
 .app-info {
+    padding-top: 10px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -70,11 +71,6 @@
 .night-mode-item {
     --background: transparent;
     --color: white;
-    height: 30px;
-
-    ion-label {
-        margin: 0px 10px;
-    }
 }
 
 ion-button {
