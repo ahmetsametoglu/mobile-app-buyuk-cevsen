@@ -105,19 +105,22 @@ export class HomePage implements OnInit, OnDestroy {
     if (this.showContentMenu) {
       this.showSettingsMenu = false;
     }
-    if (this.showContentMenu) {
-      this.title = 'İçindekiler';
-    } else if (!this.showSettingsMenu) {
-      this.title = 'Büyük Cevşen';
-    }
+    this.setTitle();
   }
+
   onToggleSettingsMenu() {
     this.showSettingsMenu = !this.showSettingsMenu;
     if (this.showSettingsMenu) {
       this.showContentMenu = false;
     }
+    this.setTitle();
+  }
+
+  setTitle() {
     if (this.showSettingsMenu) {
       this.title = 'Ayarlar';
+    } else if (this.showContentMenu) {
+      this.title = 'İçindekiler';
     } else if (!this.showContentMenu) {
       this.title = 'Büyük Cevşen';
     }
@@ -148,13 +151,13 @@ export class HomePage implements OnInit, OnDestroy {
   onSelectPage(page) {
     this.pdfService.setCurrentPage(page);
     this.showContentMenu = false;
+    this.setTitle();
   }
 
   centralizePdf() {
     if (this.ngPdfViewer && this.pdfContainer) {
-      const element = this.ngPdfViewer.element.nativeElement.firstChild;
-      console.log(element.scrollHeight, element.scrollWidth);
 
+      const element = this.ngPdfViewer.element.nativeElement.firstChild;
       const scrollLeft = element.scrollWidth * (this.zoom - 1) * ScrollLeftFactor;
       const scrollTop = element.scrollHeight * ScrollTopFactor;
       this.pdfContainer.nativeElement.scrollTop = scrollTop;
@@ -172,6 +175,6 @@ export class HomePage implements OnInit, OnDestroy {
     this.showPageInfo = true;
     setTimeout(() => {
       this.showPageInfo = false;
-    }, 300);
+    }, 500);
   }
 }
