@@ -18,8 +18,13 @@ export class AppRateComponent implements OnInit {
     this.appRateService.showMailSender();
   }
 
-  onAskLater() { }
+  onAskLater() {
+    this.appRateService.askLater();
 
-  onGoToStore() { }
+  }
+
+  onGoToStore() {
+    this.appRateService.goToStore();
+  }
 
 }

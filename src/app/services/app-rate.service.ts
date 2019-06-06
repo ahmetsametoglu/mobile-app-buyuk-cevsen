@@ -45,9 +45,25 @@ export class AppRateService {
   }
 
   showMailSender() {
+    this.askLater();
     this.emailComposer.open({
-      to: "yamansehzade@gmail.com",
-      subject: "Büyük Cevşen"
+      to: 'yamansehzade@gmail.com',
+      subject: 'Büyük Cevşen'
     });
+  }
+
+  goToStore() {
+    try {
+      this.storage.set('show_apprate', false);
+      this.showAppRate.next(false);
+      window.open('https://play.google.com/store/apps/details?id=buyuk.cevsen.ve.meali', '_system');
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  askLater() {
+    this.storage.set('rate_countdown', 10);
+    this.showAppRate.next(false);
   }
 }
