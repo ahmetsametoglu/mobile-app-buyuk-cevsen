@@ -2,7 +2,6 @@ import { Component, OnInit, ViewChild, OnDestroy } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 import { PdfService, IPdfPage, IViewGroup, NavigationSide } from '../../services/pdf.service';
 import { Subscription } from 'rxjs';
-import { PageZoomComponent } from '../../components/page-zoom/page-zoom.component';
 import { AppRateService } from 'src/app/services/app-rate.service';
 
 const ScrollLeftFactor = 0.394;
@@ -101,17 +100,6 @@ export class HomePage implements OnInit, OnDestroy {
     if (this.showAppRateSubscription) {
       this.showAppRateSubscription.unsubscribe();
     }
-  }
-
-
-  async onShowZoomMenu(ev) {
-    const popover = await this.popoverController.create({
-      component: PageZoomComponent,
-      event: ev,
-      translucent: true,
-      cssClass: 'page-zoom'
-    });
-    await popover.present();
   }
 
   onToggleContentMenu() {
