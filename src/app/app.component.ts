@@ -5,7 +5,6 @@ import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { Insomnia } from '@ionic-native/insomnia/ngx';
 import { AppRateService } from './services/app-rate.service';
-import { AppRateComponent } from './components/app-rate/app-rate.component';
 
 @Component({
   selector: 'app-root',
@@ -25,11 +24,6 @@ export class AppComponent {
 
   initializeApp() {
     this.platform.ready().then(() => {
-      this.appRateService.checkAppRate().then(showModal => {
-        if (showModal) {
-          this.showAppRateModal();
-        }
-      });
       this.appRateService.checkAppRate();
       this.statusBar.styleDefault();
       this.splashScreen.hide();
@@ -39,10 +33,5 @@ export class AppComponent {
           (err) => console.log('keepAwake error:', err));
       }
     });
-  }
-
-  async showAppRateModal() {
-    const modal = await this.modalController.create({ component: AppRateComponent });
-    modal.present();
   }
 }

@@ -12,15 +12,10 @@ import { Insomnia } from '@ionic-native/insomnia/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { AppRateComponent } from './components/app-rate/app-rate.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppRateComponent
-  ],
-  entryComponents: [
-    AppRateComponent
   ],
   imports: [
     BrowserModule,
