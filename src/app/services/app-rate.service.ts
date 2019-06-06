@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Storage } from '@ionic/storage';
 import { BehaviorSubject } from 'rxjs';
+import { EmailComposer } from '@ionic-native/email-composer/ngx';
 
 @Injectable({
   providedIn: 'root'
@@ -10,6 +11,7 @@ export class AppRateService {
 
   constructor(
     private storage: Storage,
+    private emailComposer: EmailComposer
   ) { }
 
   async checkAppRate() {
@@ -40,5 +42,12 @@ export class AppRateService {
 
   getShowApprate() {
     return this.showAppRate.asObservable();
+  }
+
+  showMailSender() {
+    this.emailComposer.open({
+      to: "yamansehzade@gmail.com",
+      subject: "Büyük Cevşen"
+    });
   }
 }

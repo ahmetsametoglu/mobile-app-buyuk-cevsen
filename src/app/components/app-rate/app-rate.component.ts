@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppRateService } from 'src/app/services/app-rate.service';
 
 @Component({
   selector: 'app-app-rate',
@@ -7,8 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppRateComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private appRateService: AppRateService
+  ) { }
 
-  ngOnInit() {}
+  ngOnInit() { }
+
+  onSendMail() {
+    this.appRateService.showMailSender();
+  }
+
+  onAskLater() { }
+
+  onGoToStore() { }
 
 }

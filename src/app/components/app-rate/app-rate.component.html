@@ -16,15 +16,15 @@
       </p>
     </div>
     <div class="rate-buttons">
-      <ion-button size="small" expand="block" shape="round" fill="outline" color="primary" (click)="doAction('goStore')"
+      <ion-button size="small" expand="block" shape="round" fill="outline" color="primary" (click)="onGoToStore()"
         class="rate-button">
         <ion-icon slot="start" name="happy"></ion-icon> tabiki, siz bu kadar uğraşmışsınız...
       </ion-button>
 
-      <ion-button size="small" fill="outline" color="danger" (click)="doAction('sendMail')" class="rate-button">
+      <ion-button size="small" fill="outline" color="danger" (click)="onSendMail()" class="rate-button">
         <ion-icon slot="start" name="mail"></ion-icon> hata bildir
       </ion-button>
-      <ion-button size="small" fill="outline" color="warning" (click)="doAction('later')" class="rate-button">
+      <ion-button size="small" fill="outline" color="warning" (click)="onAskLater()" class="rate-button">
         <ion-icon slot="start" name="sad"></ion-icon> vaktim yok
       </ion-button>
     </div>
