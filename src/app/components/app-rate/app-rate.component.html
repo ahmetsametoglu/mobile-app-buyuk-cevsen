@@ -1,3 +1,31 @@
-<p>
-  app-rate works!
-</p>
+  <div class="app-rate">
+    <div class="app-image">
+      <img src="assets/icon/favicon.png">
+    </div>
+
+    <div class="rate-title">Merhaba</div>
+    <div class="rate-content">
+      <p>
+        <span ion-text color="danger">
+          Programı kullandığınız için teşekkür ederiz.
+        </span>
+        <br> Yorum ve puanlarınız ile bize destek vermek ister misiniz ? sadece 10 saniyenizi alır...
+      </p>
+      <p>
+        Uygulama ile ilgili yaşadığınız problemleri lütfen bize bildiriniz, çözebileceğimizi umuyoruz...
+      </p>
+    </div>
+    <div class="rate-buttons">
+      <ion-button size="small" expand="block" shape="round" fill="outline" color="primary" (click)="doAction('goStore')"
+        class="rate-button">
+        <ion-icon slot="start" name="happy"></ion-icon> tabiki, siz bu kadar uğraşmışsınız...
+      </ion-button>
+
+      <ion-button size="small" fill="outline" color="danger" (click)="doAction('sendMail')" class="rate-button">
+        <ion-icon slot="start" name="mail"></ion-icon> hata bildir
+      </ion-button>
+      <ion-button size="small" fill="outline" color="warning" (click)="doAction('later')" class="rate-button">
+        <ion-icon slot="start" name="sad"></ion-icon> vaktim yok
+      </ion-button>
+    </div>
+  </div>
