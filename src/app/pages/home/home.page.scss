@@ -59,3 +59,15 @@
 		background-color: rgba(44, 105, 25, 0.692);
 	}
 }
+
+
+.app-rate-container {
+	z-index: 1000;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 137, 116, 0.486) !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -3,7 +3,8 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 import { PdfService, IPdfPage, IViewGroup, NavigationSide } from '../../services/pdf.service';
 import { Subscription } from 'rxjs';
 import { PageZoomComponent } from '../../components/page-zoom/page-zoom.component';
-import { PopoverController } from '@ionic/angular';
+import { AppRateService } from 'src/app/services/app-rate.service';
+
 const ScrollLeftFactor = 0.394;
 const ScrollTopFactor = 0.08;
 
@@ -49,13 +50,21 @@ export class HomePage implements OnInit, OnDestroy {
   showPageInfo = false;
 
   isNightModeActive = false;
+  showAppRate = false;
 
   constructor(
     private pdfService: PdfService,
-    private popoverController: PopoverController
+    private appRateService: AppRateService,
   ) { }
 
   ngOnInit() {
+    this.appRateService.checkAppRate().then(showModal => {
+      this.showAppRate = showModal;
+    });
+    this.createSubscriptions();
+  }
+
+  createSubscriptions() {
     this.pageSubscription = this.pdfService.getCurrentPage().subscribe(page => {
       if (!!page) {
         if (!this.currentPage || page.pageNumber !== this.currentPage.pageNumber) {
