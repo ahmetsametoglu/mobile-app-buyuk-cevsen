@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
 import { Storage } from '@ionic/storage';
-import { AppRateComponent } from '../components/app-rate/app-rate.component';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AppRateService {
+  private showAppRate: BehaviorSubject<boolean> = new BehaviorSubject(false);
 
   constructor(
     private storage: Storage,
@@ -35,5 +36,9 @@ export class AppRateService {
         return false;
       }
     }
+  }
+
+  getShowApprate() {
+    return this.showAppRate.asObservable();
   }
 }

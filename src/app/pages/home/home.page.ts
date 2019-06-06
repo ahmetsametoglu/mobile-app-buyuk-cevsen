@@ -40,7 +40,7 @@ export class HomePage implements OnInit, OnDestroy {
   pageSubscription: Subscription;
   viewGroupSubscription: Subscription;
   zoomSubscription: Subscription;
-
+  showAppRateSubscription: Subscription;
   zoom = 1;
   currentPage: IPdfPage;
   viewGroup: IViewGroup;
@@ -58,9 +58,6 @@ export class HomePage implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit() {
-    this.appRateService.checkAppRate().then(showModal => {
-      this.showAppRate = showModal;
-    });
     this.createSubscriptions();
   }
 
@@ -82,6 +79,10 @@ export class HomePage implements OnInit, OnDestroy {
     this.viewGroupSubscription = this.pdfService.getViewGroup().subscribe(viewGroup => {
       this.viewGroup = viewGroup;
     });
+
+    this.showAppRateSubscription = this.appRateService.getShowApprate().subscribe(showModal => {
+      this.showAppRate = showModal;
+    });
   }
 
   ngOnDestroy() {
@@ -95,6 +96,10 @@ export class HomePage implements OnInit, OnDestroy {
 
     if (this.viewGroupSubscription) {
       this.viewGroupSubscription.unsubscribe();
+    }
+
+    if (this.showAppRateSubscription) {
+      this.showAppRateSubscription.unsubscribe();
     }
   }
 
