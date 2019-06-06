@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { Platform, ModalController } from '@ionic/angular';
+import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { Insomnia } from '@ionic-native/insomnia/ngx';
@@ -17,7 +17,6 @@ export class AppComponent {
     private statusBar: StatusBar,
     private insomnia: Insomnia,
     private appRateService: AppRateService,
-    private modalController: ModalController,
   ) {
     this.initializeApp();
   }
