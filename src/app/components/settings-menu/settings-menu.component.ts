@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy, Output, EventEmitter, Input } from '@angular/core';
 import { IPdfPage, PdfService, ViewGroupName, NavigationSide } from 'src/app/services/pdf.service';
 import { Subscription } from 'rxjs';
+import { AppRateService } from 'src/app/services/app-rate.service';
 
 @Component({
   selector: 'app-settings-menu',
@@ -19,7 +20,10 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
   navigationSide: NavigationSide;
 
 
-  constructor(private pdfService: PdfService) { }
+  constructor(
+    private pdfService: PdfService,
+    private apprateService: AppRateService,
+  ) { }
 
   ngOnInit() {
     this.pageSubscription = this.pdfService.getCurrentPage().subscribe(page => {
@@ -50,11 +54,11 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
   }
 
   onNavigateOtherAppPage() {
-
+    window.open('https://play.google.com/store/apps/developer?id=Yaman+%C5%9Eehzade', '_system');
   }
 
   showMailSender() {
-
+    this.apprateService.showMailSender();
   }
 
   onCloseMenu() {
