@@ -31,9 +31,9 @@ export class AppRateService {
       this.storage.set('rate_countdown', countdown);
 
       if (countdown <= 0) {
-        return true;
+        this.showAppRate.next(true);
       } else {
-        return false;
+        this.showAppRate.next(false);
       }
     }
   }
