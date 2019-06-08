@@ -1,4 +1,4 @@
-# Pdf Viewer App
+# Buyuk Cevsen (Mobile App)
  This app created with [Ionic](https://ionicframework.com) / [Angular](https://angular.io)
 
 Commit messages are compatible with Udacity's [style guide](https://udacity.github.io/git-styleguide/)
