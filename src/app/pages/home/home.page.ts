@@ -48,6 +48,7 @@ export class HomePage implements OnInit, OnDestroy {
 
   showContentMenu = false;
   showSettingsMenu = false;
+  showBookmarkMenu = false;
   showPageInfo = false;
 
   isNightModeActive = false;
@@ -108,6 +109,7 @@ export class HomePage implements OnInit, OnDestroy {
     this.showContentMenu = !this.showContentMenu;
     if (this.showContentMenu) {
       this.showSettingsMenu = false;
+      this.showBookmarkMenu = false;
     }
     this.setTitle();
   }
@@ -116,6 +118,16 @@ export class HomePage implements OnInit, OnDestroy {
     this.showSettingsMenu = !this.showSettingsMenu;
     if (this.showSettingsMenu) {
       this.showContentMenu = false;
+      this.showBookmarkMenu = false;
+    }
+    this.setTitle();
+  }
+
+  onToggleBookmarkMenu() {
+    this.showBookmarkMenu = !this.showBookmarkMenu;
+    if (this.showBookmarkMenu) {
+      this.showContentMenu = false;
+      this.showSettingsMenu = false;
     }
     this.setTitle();
   }
@@ -125,6 +137,8 @@ export class HomePage implements OnInit, OnDestroy {
       this.title = 'Ayarlar';
     } else if (this.showContentMenu) {
       this.title = 'İçindekiler';
+    } else if (this.showBookmarkMenu) {
+      this.title = 'Ayraç';
     } else if (!this.showContentMenu) {
       this.title = 'Büyük Cevşen';
     }

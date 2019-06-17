@@ -4,6 +4,9 @@
       <ion-button (click)="onToggleContentMenu()">
         <ion-icon slot="icon-only" name="menu"></ion-icon>
       </ion-button>
+      <ion-button (click)="onToggleBookmarkMenu()">
+        <ion-icon slot="icon-only" name="bookmark"></ion-icon>
+      </ion-button>
     </ion-buttons>
     <ion-title>
       {{title}}
@@ -26,6 +29,10 @@
     <app-settings-menu (closeMenu)="onToggleSettingsMenu()" (changeNightViewMode)="isNightModeActive=$event"
       [isNightModeActive]="isNightModeActive">
     </app-settings-menu>
+  </div>
+
+  <div class="menu bookmark-menu" *ngIf="showBookmarkMenu">
+    <app-bookmark></app-bookmark>
   </div>
 
 
