@@ -24,9 +24,9 @@ export class BookmarkService {
   }
 
   private saveBookmarks() {
-    this.storage.set("bookmarks", this.bookmarks).then(_ => {
-      this.bookmarkSubject.next(this.bookmarks);
-    });
+    this.storage
+      .set("bookmarks", this.bookmarks)
+      .then(_ => this.bookmarkSubject.next(this.bookmarks));
   }
 
   private getCreateBookMarkId(length) {
