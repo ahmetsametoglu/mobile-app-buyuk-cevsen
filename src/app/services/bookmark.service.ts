@@ -16,6 +16,7 @@ export class BookmarkService {
         this.storage.get('bookmarks').then(bookmarks => {
             if (!!bookmarks) {
                 this.bookmarks = bookmarks;
+                this.bookmarkSubject.next(bookmarks);
             }
         });
     }
