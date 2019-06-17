@@ -14,14 +14,16 @@ export class BookmarkService {
 
     private initStorage() {
         this.storage.get('bookmarks').then(bookmarks => {
-            if (!bookmarks) {
+            if (!!bookmarks) {
                 this.bookmarks = bookmarks;
             }
         });
     }
 
     private saveBookmarks() {
-        this.storage.set('bookmarks', this.bookmarks);
+        this.storage.set('bookmarks', this.bookmarks).then(_ => {
+            this.bookmarkSubject.next(this.bookmarks)
+        })
     }
 
     private getCreateBookMarkId(length) {
@@ -35,6 +37,7 @@ export class BookmarkService {
     }
 
     saveUpdateBookmark(bookmark: IBookmark) {
+        bookmark.updatedAt = new Date();
         if (!bookmark.id) {
             bookmark.id = this.getCreateBookMarkId(10);
             this.bookmarks.push(bookmark);
