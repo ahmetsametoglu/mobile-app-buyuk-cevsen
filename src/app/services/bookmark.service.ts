@@ -3,7 +3,7 @@ import { Storage } from '@ionic/storage';
 import { IBookmark } from '../models/bookmark.model';
 import { BehaviorSubject } from 'rxjs';
 
-Injectable({ providedIn: 'root' })
+@Injectable({ providedIn: 'root' })
 export class BookmarkService {
     private bookmarks: IBookmark[] = [];
     private bookmarkSubject: BehaviorSubject<IBookmark[]> = new BehaviorSubject(this.bookmarks);
