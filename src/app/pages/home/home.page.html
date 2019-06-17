@@ -9,7 +9,7 @@
       </ion-button>
     </ion-buttons>
     <ion-title>
-      {{title}}
+      {{ title }}
     </ion-title>
     <ion-buttons slot="end">
       <ion-button (click)="onToggleSettingsMenu()">
@@ -20,43 +20,70 @@
 </ion-header>
 
 <ion-content>
-
-  <div class="menu content-menu" [@contentMenu]='!!showContentMenu ? "show" :"hide"'>
+  <div
+    class="menu content-menu"
+    [@contentMenu]="!!showContentMenu ? 'show' : 'hide'"
+  >
     <app-content-menu (selectPage)="onSelectPage($event)"></app-content-menu>
   </div>
 
-  <div class="menu settings-menu" [@settingsMenu]='!!showSettingsMenu ? "show" :"hide"'>
-    <app-settings-menu (closeMenu)="onToggleSettingsMenu()" (changeNightViewMode)="isNightModeActive=$event"
-      [isNightModeActive]="isNightModeActive">
+  <div
+    class="menu settings-menu"
+    [@settingsMenu]="!!showSettingsMenu ? 'show' : 'hide'"
+  >
+    <app-settings-menu
+      (closeMenu)="onToggleSettingsMenu()"
+      (changeNightViewMode)="isNightModeActive = $event"
+      [isNightModeActive]="isNightModeActive"
+    >
     </app-settings-menu>
   </div>
 
   <div class="menu bookmark-menu" *ngIf="showBookmarkMenu">
-    <app-bookmark></app-bookmark>
+    <app-bookmark (closeMenu)="onToggleBookmarkMenu()"></app-bookmark>
   </div>
 
+  <div
+    class="pdf-container"
+    #pdf_container
+    [ngClass]="{
+      'night-view': isNightModeActive,
+      'light-view': isNightModeActive
+    }"
+  >
+    <div
+      class="finger-gesture"
+      [ngStyle]="{ height: fingerSwipeHeight + 'px' }"
+      (swipeleft)="onChangePage(navigationSide.right)"
+      (swiperight)="onChangePage(navigationSide.left)"
+      (pinchin)="onZoomIn($event)"
+      (pinchout)="onZoomOut($event)"
+    ></div>
 
-  <div class="pdf-container" #pdf_container
-    [ngClass]="{'night-view': isNightModeActive, 'light-view': isNightModeActive}">
-
-    <div class="finger-gesture" [ngStyle]="{'height':fingerSwipeHeight +'px'}"
-      (swipeleft)="onChangePage(navigationSide.right)" (swiperight)="onChangePage(navigationSide.left)"
-      (pinchin)="onZoomIn($event)" (pinchout)="onZoomOut($event)">
-    </div>
-
-    <pdf-viewer #pdf_viewer class="ng-pdf-viewer" *ngIf="!!currentPage" src="../../assets/data/private/buyuk-cevsen.pdf"
-      [zoom]="zoom" (page-rendered)="pageRendered()" [render-text]="false" [show-all]="false" [original-size]="false"
-      [page]="!!currentPage ? currentPage.pageNumber : 1">
+    <pdf-viewer
+      #pdf_viewer
+      class="ng-pdf-viewer"
+      *ngIf="!!currentPage"
+      src="../../assets/data/private/buyuk-cevsen.pdf"
+      [zoom]="zoom"
+      (page-rendered)="pageRendered()"
+      [render-text]="false"
+      [show-all]="false"
+      [original-size]="false"
+      [page]="!!currentPage ? currentPage.pageNumber : 1"
+    >
     </pdf-viewer>
   </div>
 
-  <div class="page-info" *ngIf="currentPage && currentPage.description"
-    [@pageInfoAnimation]='showPageInfo ? "show" :"hide"'>
+  <div
+    class="page-info"
+    *ngIf="currentPage && currentPage.description"
+    [@pageInfoAnimation]="showPageInfo ? 'show' : 'hide'"
+  >
     <div class="info">
-      {{currentPage.description}}
+      {{ currentPage.description }}
     </div>
   </div>
-
 </ion-content>
 
 <div class="app-rate-container" *ngIf="showAppRate">
