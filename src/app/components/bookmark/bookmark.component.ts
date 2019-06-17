@@ -1,18 +1,23 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { PdfService } from 'src/app/services/pdf.service';
-import { take } from 'rxjs/operators';
-import { AlertController, ToastController } from '@ionic/angular';
-import { BookmarkService } from 'src/app/services/bookmark.service';
-import { IBookmark } from 'src/app/models/bookmark.model';
-import { Subscription } from 'rxjs';
-import { resolve } from 'q';
+import {
+  Component,
+  OnInit,
+  OnDestroy,
+  Output,
+  EventEmitter
+} from "@angular/core";
+import { PdfService } from "src/app/services/pdf.service";
+import { take } from "rxjs/operators";
+import { AlertController, ToastController } from "@ionic/angular";
+import { BookmarkService } from "src/app/services/bookmark.service";
+import { IBookmark } from "src/app/models/bookmark.model";
+import { Subscription } from "rxjs";
 @Component({
-  selector: 'app-bookmark',
-  templateUrl: './bookmark.component.html',
-  styleUrls: ['./bookmark.component.scss'],
+  selector: "app-bookmark",
+  templateUrl: "./bookmark.component.html",
+  styleUrls: ["./bookmark.component.scss"]
 })
 export class BookmarkComponent implements OnInit, OnDestroy {
-
+  @Output() closeMenu = new EventEmitter();
   bookmarks: IBookmark[] = [];
   bookmarksSubscription: Subscription;
 
@@ -20,13 +25,16 @@ export class BookmarkComponent implements OnInit, OnDestroy {
     private pdfService: PdfService,
     public alertController: AlertController,
     public toastController: ToastController,
-    private bookmarkService: BookmarkService,
-  ) { }
+    private bookmarkService: BookmarkService
+  ) {}
 
   ngOnInit() {
-    this.bookmarksSubscription = this.bookmarkService.getBookmarks().subscribe(bookmarks => {
-      this.bookmarks = bookmarks;
-    })
+    this.bookmarksSubscription = this.bookmarkService
+      .getBookmarks()
+      .subscribe(bookmarks => {
+        console.log(bookmarks);
+        this.bookmarks = bookmarks;
+      });
   }
 
   ngOnDestroy() {
@@ -35,50 +43,81 @@ export class BookmarkComponent implements OnInit, OnDestroy {
     }
   }
 
-  async addBookmark() {
-    const currentPage = await this.pdfService.getCurrentPage().pipe(take(1)).toPromise();
-    console.log('currentPage:', currentPage);
+  goToPage(bookmark: IBookmark) {
+    this.pdfService.setCurrentPageWithPageNumber(bookmark.pageNumber);
+    this.closeMenu.emit();
+  }
 
-    const name = await this.showInputAlert(`${currentPage.pageNumber}. sayfaya ayraç ekle `);
+  async updateBookmark(bookmark: IBookmark) {
+    // TO DO : uyari gosterilecek
+
+    const currentPage = await this.pdfService
+      .getCurrentPage()
+      .pipe(take(1))
+      .toPromise();
+    const updatedBookmark = {
+      ...bookmark,
+      pageNumber: currentPage.pageNumber,
+      description: currentPage.description
+    };
+
+    if (currentPage.pageNumber !== bookmark.pageNumber) {
+      this.bookmarkService.saveUpdateBookmark(updatedBookmark);
+    }
+  }
+
+  deleteBookmark(bookmark: IBookmark) {
+    // TO DO : uyari gosterilecek
+    this.bookmarkService.deleteBookmark(bookmark.id);
+  }
+
+  async addBookmark() {
+    const currentPage = await this.pdfService
+      .getCurrentPage()
+      .pipe(take(1))
+      .toPromise();
+
+    const name = await this.showInputAlert(
+      `${currentPage.pageNumber}. sayfaya ayraç ekle `
+    );
     console.log(name);
     const bookmark: IBookmark = {
       id: null,
       name,
       pageNumber: currentPage.pageNumber,
-      description: currentPage.description,
-    }
+      description: currentPage.description
+    };
     this.bookmarkService.saveUpdateBookmark(bookmark);
   }
 
   async showInputAlert(header: string): Promise<string> {
-
-
     return new Promise(async resolve => {
       const alert = await this.alertController.create({
         header: header,
         backdropDismiss: false,
         inputs: [
           {
-            name: 'name',
-            type: 'text',
-            placeholder: 'ayraça bir isim veriniz'
+            name: "name",
+            type: "text",
+            placeholder: "ayraça bir isim veriniz"
           }
         ],
         buttons: [
           {
-            text: 'Iptal',
-            role: 'cancel',
-            cssClass: 'secondary',
+            text: "Iptal",
+            role: "cancel",
+            cssClass: "secondary",
             handler: () => {
-              console.log('Confirm Cancel');
+              console.log("Confirm Cancel");
             }
-          }, {
-            text: 'Ekle',
-            handler: (data) => {
-              console.log('Confirm Ok', data);
+          },
+          {
+            text: "Ekle",
+            handler: data => {
+              console.log("Confirm Ok", data);
               const name = data.name.trim();
-              if (name !== '') {
-                resolve(name)
+              if (name !== "") {
+                resolve(name);
               } else {
                 this.showAttention();
               }
@@ -88,16 +127,15 @@ export class BookmarkComponent implements OnInit, OnDestroy {
       });
 
       await alert.present();
-    })
+    });
   }
 
   async showAttention() {
     const toast = await this.toastController.create({
-      message: 'Kutucuğu boş bırakamazsınız',
+      message: "Kutucuğu boş bırakamazsınız",
       duration: 2000
     });
     toast.present();
-    toast.onDidDismiss()
+    toast.onDidDismiss();
   }
-
 }
