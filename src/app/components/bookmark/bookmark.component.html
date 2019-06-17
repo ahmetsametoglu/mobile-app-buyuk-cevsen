@@ -1,7 +1,26 @@
-<p>
-  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-    <ion-fab-button color='danger' (click)="addBookmark()">
-      <ion-icon name="add"></ion-icon>
-    </ion-fab-button>
-  </ion-fab>
-</p>
+<div class="bookmark-list">
+  <div class="bookmark-item" *ngFor="let bookmark of bookmarks">
+    <div class="header">
+      <div class="bookmark-name">{{ bookmark.name }}</div>
+      <div class="page-number">{{ bookmark.pageNumber }}.sayfa</div>
+    </div>
+    <div class="description">{{ bookmark.description }}</div>
+    <div class="action-buttons">
+      <ion-button size="small" color="secondary">
+        <ion-icon slot="start" name="navigate"></ion-icon> git
+      </ion-button>
+      <ion-button size="small" color="light">
+        <ion-icon slot="start" name="refresh"></ion-icon> sayfayi guncelle
+      </ion-button>
+      <ion-button size="small" color="danger">
+        <ion-icon slot="start" name="trash"></ion-icon> sil
+      </ion-button>
+    </div>
+  </div>
+</div>
+
+<ion-fab vertical="bottom" horizontal="end" slot="fixed">
+  <ion-fab-button color="danger" (click)="addBookmark()">
+    <ion-icon name="add"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
