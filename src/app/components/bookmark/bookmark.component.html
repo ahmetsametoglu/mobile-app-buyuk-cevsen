@@ -6,21 +6,27 @@
     </div>
     <div class="description">{{ bookmark.description }}</div>
     <div class="action-buttons">
-      <ion-button size="small" color="secondary">
+      <ion-button size="small" color="secondary" (click)="goToPage(bookmark)">
         <ion-icon slot="start" name="navigate"></ion-icon> git
       </ion-button>
-      <ion-button size="small" color="light">
-        <ion-icon slot="start" name="refresh"></ion-icon> sayfayi guncelle
+      <ion-button size="small" color="light" (click)="updateBookmark(bookmark)">
+        <ion-icon slot="start" name="refresh"></ion-icon> ayracı güncelle
       </ion-button>
-      <ion-button size="small" color="danger">
+      <ion-button
+        size="small"
+        color="danger"
+        (click)="deleteBookmark(bookmark)"
+      >
         <ion-icon slot="start" name="trash"></ion-icon> sil
       </ion-button>
     </div>
   </div>
 </div>
 
-<ion-fab vertical="bottom" horizontal="end" slot="fixed">
-  <ion-fab-button color="danger" (click)="addBookmark()">
-    <ion-icon name="add"></ion-icon>
-  </ion-fab-button>
-</ion-fab>
+<div style="right: 0; bottom: 0; position: fixed;">
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="danger" (click)="addBookmark()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</div>
