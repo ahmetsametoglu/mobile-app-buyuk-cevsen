@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy, Output, EventEmitter } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { PdfService, IPdfPage, ViewGroupName } from 'src/app/services/pdf.service';
+import { PdfService } from 'src/app/services/pdf.service';
+import { IPdfPage } from 'src/app/models/pdfpage.model';
 
 @Component({
   selector: 'app-page-bar',

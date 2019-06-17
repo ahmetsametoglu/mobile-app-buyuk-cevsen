@@ -2,6 +2,8 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import pdfInfo from '../../assets/data/pdf-content.json';
 import { Storage } from '@ionic/storage';
+import { ViewGroupName, NavigationSide, IViewGroup } from '../models/view-group.model.js';
+import { IPdfPage } from '../models/pdfpage.model.js';
 
 @Injectable({
   providedIn: 'root'
@@ -204,29 +206,3 @@ export class PdfService {
   }
 
 }
-
-export interface IPdfPage {
-  pageIndex: number;
-  pageNumber: number;
-  contentTitle: string;
-  description: string;
-  showOnContentMenu: boolean;
-  group: string;
-}
-
-export interface IViewGroup {
-  name: ViewGroupName;
-  navSide: NavigationSide;
-}
-
-export enum ViewGroupName {
-  arapca = 'a',
-  meal = 'm',
-  arapca_meal = 'am'
-}
-
-export enum NavigationSide {
-  left = 'left',
-  right = 'right'
-}
-

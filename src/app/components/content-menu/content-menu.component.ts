@@ -1,6 +1,7 @@
 import { Component, OnInit, Output, EventEmitter, OnDestroy } from '@angular/core';
-import { PdfService, IPdfPage } from 'src/app/services/pdf.service';
+import { PdfService } from 'src/app/services/pdf.service';
 import { Subscription } from 'rxjs';
+import { IPdfPage } from 'src/app/models/pdfpage.model';
 
 @Component({
   selector: 'app-content-menu',

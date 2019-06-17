@@ -1,7 +1,9 @@
 import { Component, OnInit, OnDestroy, Output, EventEmitter, Input } from '@angular/core';
-import { IPdfPage, PdfService, ViewGroupName, NavigationSide } from 'src/app/services/pdf.service';
+import { PdfService } from 'src/app/services/pdf.service';
 import { Subscription } from 'rxjs';
 import { AppRateService } from 'src/app/services/app-rate.service';
+import { IPdfPage } from 'src/app/models/pdfpage.model';
+import { ViewGroupName, NavigationSide } from 'src/app/models/view-group.model';
 
 @Component({
   selector: 'app-settings-menu',

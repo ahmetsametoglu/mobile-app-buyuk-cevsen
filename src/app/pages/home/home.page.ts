@@ -1,8 +1,10 @@
 import { Component, OnInit, ViewChild, OnDestroy } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
-import { PdfService, IPdfPage, IViewGroup, NavigationSide } from '../../services/pdf.service';
+import { PdfService } from '../../services/pdf.service';
 import { Subscription } from 'rxjs';
 import { AppRateService } from 'src/app/services/app-rate.service';
+import { NavigationSide, IViewGroup } from 'src/app/models/view-group.model';
+import { IPdfPage } from 'src/app/models/pdfpage.model';
 
 const ScrollLeftFactor = 0.394;
 const ScrollTopFactor = 0.08;
