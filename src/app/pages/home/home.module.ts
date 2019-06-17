@@ -12,6 +12,7 @@ import { SettingsMenuComponent } from 'src/app/components/settings-menu/settings
 import { PageZoomComponent } from 'src/app/components/page-zoom/page-zoom.component';
 import { PageBarComponent } from 'src/app/components/page-bar/page-bar.component';
 import { AppRateComponent } from 'src/app/components/app-rate/app-rate.component';
+import { BookmarkComponent } from 'src/app/components/bookmark/bookmark.component';
 
 const routes: Routes = [
   {
@@ -35,6 +36,7 @@ const routes: Routes = [
     PageZoomComponent,
     PageBarComponent,
     AppRateComponent,
+    BookmarkComponent
   ]
 })
 export class HomePageModule { }
