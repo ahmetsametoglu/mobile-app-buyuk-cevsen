@@ -1215,7 +1215,7 @@
             "contentTitle": "Evrâd-ı Kudsiye",
             "description": "Evrâd-ı Kudsiye - sayfa 1 - arapça",
             "showOnContentMenu": true,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 152,
@@ -1223,7 +1223,7 @@
             "contentTitle": "Evrâd-ı Kudsiye",
             "description": "Evrâd-ı Kudsiye - sayfa 1 - meal",
             "showOnContentMenu": true,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 153,
@@ -1231,7 +1231,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 2 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 154,
@@ -1239,7 +1239,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 2 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 155,
@@ -1247,7 +1247,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 3 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 156,
@@ -1255,7 +1255,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 3 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 157,
@@ -1263,7 +1263,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 4 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 158,
@@ -1271,7 +1271,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 4 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 159,
@@ -1279,7 +1279,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 5 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 160,
@@ -1287,7 +1287,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 5 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 161,
@@ -1295,7 +1295,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 6 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 162,
@@ -1303,7 +1303,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 6 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 163,
@@ -1311,7 +1311,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 7 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 164,
@@ -1319,7 +1319,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 7 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 165,
@@ -1327,7 +1327,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 8 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 166,
@@ -1335,7 +1335,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 8 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 167,
@@ -1343,7 +1343,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 9 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 168,
@@ -1351,7 +1351,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 9 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 169,
@@ -1359,7 +1359,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 10 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 170,
@@ -1367,7 +1367,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 10 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 171,
@@ -1375,7 +1375,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 11 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 172,
@@ -1383,7 +1383,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 11 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 173,
@@ -1391,7 +1391,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 12 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 174,
@@ -1399,7 +1399,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 12 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 175,
@@ -1407,7 +1407,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 13 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 176,
@@ -1415,7 +1415,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 13 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 177,
@@ -1423,7 +1423,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 14 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 178,
@@ -1431,7 +1431,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 14 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 179,
@@ -1439,7 +1439,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 15 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 180,
@@ -1447,7 +1447,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 15 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 181,
@@ -1455,7 +1455,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 16 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 182,
@@ -1463,7 +1463,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 16 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 183,
@@ -1471,7 +1471,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 17 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 184,
@@ -1479,7 +1479,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 17 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 185,
@@ -1487,7 +1487,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 18 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 186,
@@ -1495,7 +1495,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 18 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 187,
@@ -1503,7 +1503,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 19 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 188,
@@ -1511,7 +1511,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 19 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 189,
@@ -1519,7 +1519,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 20 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 190,
@@ -1527,7 +1527,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 20 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 191,
@@ -1535,7 +1535,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 21 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 192,
@@ -1543,7 +1543,7 @@
             "contentTitle": "",
             "description": "Evrâd-ı Kudsiye - sayfa 21 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 193,
@@ -2007,7 +2007,7 @@
             "contentTitle": "",
             "description": "Dua-u İsm-i A’zam - sayfa 2 - arapça",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "a"
         },
         {
             "pageIndex": 251,
@@ -2015,7 +2015,7 @@
             "contentTitle": "",
             "description": "Dua-u İsm-i A’zam - sayfa 2 - meal",
             "showOnContentMenu": false,
-            "group": ""
+            "group": "m"
         },
         {
             "pageIndex": 252,
