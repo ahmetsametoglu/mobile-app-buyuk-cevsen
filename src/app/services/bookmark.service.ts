@@ -6,6 +6,7 @@ import { BehaviorSubject } from "rxjs";
 @Injectable({ providedIn: "root" })
 export class BookmarkService {
   private bookmarks: IBookmark[] = [];
+  public activeBookmark: IBookmark = null;
   private bookmarkSubject: BehaviorSubject<IBookmark[]> = new BehaviorSubject(
     this.bookmarks
   );

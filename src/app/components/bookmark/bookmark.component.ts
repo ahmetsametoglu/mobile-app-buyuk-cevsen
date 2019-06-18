@@ -44,6 +44,7 @@ export class BookmarkComponent implements OnInit, OnDestroy {
   }
 
   async goToPage(bookmark: IBookmark) {
+    this.bookmarkService.activeBookmark = bookmark;
     await this.pdfService.setViewGroupAndCurrentPage(bookmark.viewGroup.name);
     await this.pdfService.setCurrentPageWithPageNumber(bookmark.pageNumber);
     this.closeMenu.emit();
