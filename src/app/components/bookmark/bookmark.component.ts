@@ -49,26 +49,32 @@ export class BookmarkComponent implements OnInit, OnDestroy {
   }
 
   async updateBookmark(bookmark: IBookmark) {
-    // TO DO : uyari gosterilecek
-
     const currentPage = await this.pdfService
       .getCurrentPage()
       .pipe(take(1))
       .toPromise();
-    const updatedBookmark = {
-      ...bookmark,
-      pageNumber: currentPage.pageNumber,
-      description: currentPage.description
-    };
 
-    if (currentPage.pageNumber !== bookmark.pageNumber) {
-      this.bookmarkService.saveUpdateBookmark(updatedBookmark);
-    }
+    this.showConfirmation(
+      "Ayraç Güncelle",
+      `${bookmark.name}`,
+      `${currentPage.pageNumber}.sayfaya al`
+    ).then(_ => {
+      const updatedBookmark = {
+        ...bookmark,
+        pageNumber: currentPage.pageNumber,
+        description: currentPage.description
+      };
+
+      if (currentPage.pageNumber !== bookmark.pageNumber) {
+        this.bookmarkService.saveUpdateBookmark(updatedBookmark);
+      }
+    });
   }
 
   deleteBookmark(bookmark: IBookmark) {
-    // TO DO : uyari gosterilecek
-    this.bookmarkService.deleteBookmark(bookmark.id);
+    this.showConfirmation("Ayraç Sil", `${bookmark.name}`, null).then(_ => {
+      this.bookmarkService.deleteBookmark(bookmark.id);
+    });
   }
 
   async addBookmark() {
@@ -77,9 +83,9 @@ export class BookmarkComponent implements OnInit, OnDestroy {
       .pipe(take(1))
       .toPromise();
 
-    const name = await this.showInputAlert(
+    const name = (await this.showInputAlert(
       `${currentPage.pageNumber}. sayfaya ayraç ekle `
-    );
+    )) as string;
     console.log(name);
     const bookmark: IBookmark = {
       id: null,
@@ -90,7 +96,7 @@ export class BookmarkComponent implements OnInit, OnDestroy {
     this.bookmarkService.saveUpdateBookmark(bookmark);
   }
 
-  async showInputAlert(header: string): Promise<string> {
+  async showInputAlert(header: string) {
     return new Promise(async resolve => {
       const alert = await this.alertController.create({
         header: header,
@@ -137,5 +143,30 @@ export class BookmarkComponent implements OnInit, OnDestroy {
     });
     toast.present();
     toast.onDidDismiss();
+  }
+
+  async showConfirmation(header: string, subHeader: string, message: string) {
+    return new Promise(async resolve => {
+      const alert = await this.alertController.create({
+        header: header,
+        subHeader: subHeader,
+        message: message,
+        buttons: [
+          {
+            text: "Iptal",
+            role: "cancel",
+            cssClass: "danger"
+          },
+          {
+            text: "Tamam",
+            handler: () => {
+              resolve();
+            }
+          }
+        ]
+      });
+
+      await alert.present();
+    });
   }
 }
