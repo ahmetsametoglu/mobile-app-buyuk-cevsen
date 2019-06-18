@@ -1,3 +1,30 @@
-<p>
-  exit-modal works!
-</p>
+<div class="exit-modal">
+  <div class="header">Uygulamayi Kapat</div>
+
+  <div class="active-bookmark" *ngIf="!!bookmarkService.activeBookmark">
+    <div class="header">
+      <div class="bookmark-name">{{ bookmarkService.activeBookmark.name }}</div>
+      <div class="page-number">
+        {{ bookmarkService.activeBookmark.pageNumber }}.sayfa da
+      </div>
+    </div>
+    <div class="description">
+      {{ bookmarkService.activeBookmark.description }}
+    </div>
+    <div class="action-buttons">
+      <ion-button shape="round" color="primary" size="small">
+        <ion-icon slot="start" name="refresh"></ion-icon> Ayraci Guncelle ve
+        Kapat
+      </ion-button>
+    </div>
+  </div>
+
+  <div class="action-buttons">
+    <ion-button shape="round" color="danger">
+      <ion-icon slot="start" name="navigate"></ion-icon> Kapat
+    </ion-button>
+    <ion-button shape="round" color="light">
+      <ion-icon slot="start" name="trash"></ion-icon> Iptal
+    </ion-button>
+  </div>
+</div>

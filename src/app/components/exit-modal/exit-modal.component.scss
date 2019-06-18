@@ -1,0 +1,70 @@
+.exit-modal {
+  position: relative;
+  border: 1px #063f37 solid;
+  border-radius: 20px;
+  max-width: 500px;
+  width: 95vw;
+  height: min-content;
+  background-color: rgba(98, 50, 50, 0.623);
+  padding: 10px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+  }
+
+  .active-bookmark {
+    width: 100%;
+    margin: 5px;
+    margin-top: 10px;
+    border: rgba(245, 245, 245, 0.686) 1px solid;
+    border-radius: 10px;
+
+    .header {
+      padding: 3px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .bookmark-name {
+        font-size: 22px;
+        color: #ffffff;
+      }
+      .page-number {
+        color: aliceblue;
+        font-size: 14px;
+        margin-left: 10px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    }
+    .description {
+      padding: 3px;
+      text-align: center;
+      font-size: 16px;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      color: antiquewhite;
+    }
+  }
+  .action-buttons {
+    margin-top: 15px;
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+    ion-button {
+      min-width: 80px;
+      min-height: 35px;
+    }
+  }
+}
