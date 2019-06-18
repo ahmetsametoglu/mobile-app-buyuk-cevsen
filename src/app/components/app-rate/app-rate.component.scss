@@ -1,55 +1,54 @@
 .app-rate {
-    position: relative;
-    border: 1px #063f37 solid;
-    border-radius: 20px;
-    max-width: 500px;
-    width: 95vw;
-    height: min-content;
-    background-color: white;
+  position: relative;
+  border: 1px #063f37 solid;
+  border-radius: 20px;
+  max-width: 500px;
+  width: 95vw;
+  height: min-content;
+  background-color: white;
+  padding: 10px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .app-image {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 70px;
+    width: 70px;
+  }
+
+  .rate-title {
     padding: 10px;
-    margin: auto;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(21, 110, 9, 0.658);
+  }
 
+  .rate-content {
+    flex-grow: 1;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+  }
 
+  .rate-buttons {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
     align-items: center;
 
-    .app-image {
-        position: absolute;
-        right: 10px;
-        top: 10px;
-        height: 70px;
-        width: 70px;
+    .rate-button {
+      height: 35px;
+      margin: 8px;
     }
-
-    .rate-title {
-        padding: 10px;
-        padding-right: 50px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 400;
-        font-size: 30px;
-        color: rgba(21, 110, 9, 0.658)
-    }
-
-    .rate-content {
-        flex-grow: 1;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 16px;
-    }
-
-    .rate-buttons {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-
-        .rate-button {
-            height: 35px;
-            margin: 8px;
-        }
-    }
+  }
 }
