@@ -166,25 +166,22 @@ export class PdfService {
           };
 
     this.storage.set("viewGroup", viewGroup);
+    this.viewGroup.next(viewGroup);
+    this.updateActivePages(viewGroup.name);
+    this.storage.set("viewGroup", viewGroup);
+    this.updateViewGroups(viewGroup);
+
     if (
       viewGroup.name !== ViewGroupName.arapca_meal &&
       currentPage.group !== ViewGroupName.arapca_meal &&
       viewGroup.name !== currentPage.group
     ) {
       if (viewGroup.name === ViewGroupName.meal) {
-        this.setCurrentPage(
-          this.activePages[this.currentPage.value.pageIndex + 1]
-        );
+        this.setCurrentPage(this.activePages[this.currentPage.value.pageIndex]);
       } else if (viewGroup.name === ViewGroupName.arapca) {
-        this.setCurrentPage(
-          this.activePages[this.currentPage.value.pageIndex - 1]
-        );
+        this.setCurrentPage(this.activePages[this.currentPage.value.pageIndex]);
       }
     }
-    this.viewGroup.next(viewGroup);
-    this.updateActivePages(viewGroup.name);
-    this.storage.set("viewGroup", viewGroup);
-    this.updateViewGroups(viewGroup);
   }
 
   saveNavSide(viewGroupName: ViewGroupName, navSide: NavigationSide) {
