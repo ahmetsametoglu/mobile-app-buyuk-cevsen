@@ -86,6 +86,10 @@
   </div>
 </ion-content>
 
-<div class="app-rate-container" *ngIf="showAppRate">
+<div class="modal-container" *ngIf="showAppRate">
   <app-app-rate></app-app-rate>
+</div>
+
+<div class="modal-container" *ngIf="showExitModal">
+  <app-exit-modal></app-exit-modal>
 </div>

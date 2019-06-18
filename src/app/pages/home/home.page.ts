@@ -56,6 +56,7 @@ export class HomePage implements OnInit, OnDestroy {
   showContentMenu = false;
   showSettingsMenu = false;
   showBookmarkMenu = false;
+  showExitModal = false;
   showPageInfo = false;
 
   isNightModeActive = false;
@@ -107,21 +108,30 @@ export class HomePage implements OnInit, OnDestroy {
 
   createBackButtonSubscription() {
     this.platform.backButton.subscribe(res => {
+      if (this.showAppRate) {
+        return;
+      }
+
       const isMenuShow = this.checkIsAnyMenuShowAndClose();
 
       if (!isMenuShow) {
-        this.closeApp();
+        this.showExitModal = true;
+        // this.closeApp();s
       }
     });
   }
 
   checkIsAnyMenuShowAndClose(): boolean {
     const isMenuShowing =
-      this.showBookmarkMenu || this.showContentMenu || this.showSettingsMenu;
+      this.showBookmarkMenu ||
+      this.showContentMenu ||
+      this.showSettingsMenu ||
+      this.showExitModal;
 
     this.showBookmarkMenu = false;
     this.showContentMenu = false;
     this.showSettingsMenu = false;
+    this.showExitModal = false;
 
     this.setTitle();
 
