@@ -1,17 +1,23 @@
-import { Component, OnInit, OnDestroy, Output, EventEmitter, Input } from '@angular/core';
-import { PdfService } from 'src/app/services/pdf.service';
-import { Subscription } from 'rxjs';
-import { AppRateService } from 'src/app/services/app-rate.service';
-import { IPdfPage } from 'src/app/models/pdfpage.model';
-import { ViewGroupName, NavigationSide } from 'src/app/models/view-group.model';
+import {
+  Component,
+  OnInit,
+  OnDestroy,
+  Output,
+  EventEmitter,
+  Input
+} from "@angular/core";
+import { PdfService } from "src/app/services/pdf.service";
+import { Subscription } from "rxjs";
+import { AppRateService } from "src/app/services/app-rate.service";
+import { IPdfPage } from "src/app/models/pdfpage.model";
+import { ViewGroupName, NavigationSide } from "src/app/models/view-group.model";
 
 @Component({
-  selector: 'app-settings-menu',
-  templateUrl: './settings-menu.component.html',
-  styleUrls: ['./settings-menu.component.scss'],
+  selector: "app-settings-menu",
+  templateUrl: "./settings-menu.component.html",
+  styleUrls: ["./settings-menu.component.scss"]
 })
 export class SettingsMenuComponent implements OnInit, OnDestroy {
-
   @Output() closeMenu = new EventEmitter();
   @Output() changeNightViewMode = new EventEmitter<boolean>();
   @Input() isNightModeActive: boolean;
@@ -21,11 +27,10 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
   viewGroupName: ViewGroupName;
   navigationSide: NavigationSide;
 
-
   constructor(
     private pdfService: PdfService,
-    private apprateService: AppRateService,
-  ) { }
+    private apprateService: AppRateService
+  ) {}
 
   ngOnInit() {
     this.pageSubscription = this.pdfService.getCurrentPage().subscribe(page => {
@@ -34,14 +39,15 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
       }
     });
 
-    this.pageSubscription = this.pdfService.getViewGroup().subscribe(viewGroup => {
-      if (!!viewGroup) {
-        console.log(viewGroup);
-        this.viewGroupName = viewGroup.name;
-        this.navigationSide = viewGroup.navSide;
-      }
-    });
-
+    this.pageSubscription = this.pdfService
+      .getViewGroup()
+      .subscribe(viewGroup => {
+        if (!!viewGroup) {
+          console.log(viewGroup);
+          this.viewGroupName = viewGroup.name;
+          this.navigationSide = viewGroup.navSide;
+        }
+      });
   }
 
   ngOnDestroy() {
@@ -52,11 +58,14 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
 
   changeViewGroup(event) {
     this.viewGroupName = event.detail.value;
-    this.pdfService.setViewGroup(this.viewGroupName);
+    this.pdfService.setViewGroupAndCurrentPage(this.viewGroupName);
   }
 
   onNavigateOtherAppPage() {
-    window.open('https://play.google.com/store/apps/developer?id=Yaman+%C5%9Eehzade', '_system');
+    window.open(
+      "https://play.google.com/store/apps/developer?id=Yaman+%C5%9Eehzade",
+      "_system"
+    );
   }
 
   showMailSender() {
@@ -76,5 +85,4 @@ export class SettingsMenuComponent implements OnInit, OnDestroy {
     const isNightViewActive = event.detail.checked;
     this.changeNightViewMode.emit(isNightViewActive);
   }
-
 }
