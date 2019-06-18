@@ -91,5 +91,5 @@
 </div>
 
 <div class="modal-container" *ngIf="showExitModal">
-  <app-exit-modal></app-exit-modal>
+  <app-exit-modal (closeModal)="onCloseExitModal()"></app-exit-modal>
 </div>

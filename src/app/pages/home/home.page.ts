@@ -187,6 +187,10 @@ export class HomePage implements OnInit, OnDestroy {
     this.setTitle();
   }
 
+  onCloseExitModal() {
+    this.showExitModal = false;
+  }
+
   setTitle() {
     if (this.showSettingsMenu) {
       this.title = "Ayarlar";

@@ -1,5 +1,5 @@
 <div class="exit-modal">
-  <div class="header">Uygulamayi Kapat</div>
+  <div class="header">Uygulamayı Kapat</div>
 
   <div class="active-bookmark" *ngIf="!!bookmarkService.activeBookmark">
     <div class="header">
@@ -12,19 +12,24 @@
       {{ bookmarkService.activeBookmark.description }}
     </div>
     <div class="action-buttons">
-      <ion-button shape="round" color="primary" size="small">
-        <ion-icon slot="start" name="refresh"></ion-icon> Ayraci Guncelle ve
+      <ion-button
+        shape="round"
+        color="primary"
+        size="small"
+        (click)="onUpdateAndCloseApp()"
+      >
+        <ion-icon slot="start" name="refresh"></ion-icon> Ayracı Güncelle ve
         Kapat
       </ion-button>
     </div>
   </div>
 
   <div class="action-buttons">
-    <ion-button shape="round" color="danger">
-      <ion-icon slot="start" name="navigate"></ion-icon> Kapat
+    <ion-button shape="round" color="danger" (click)="onCloseApp()">
+      <ion-icon slot="start" name="exit"></ion-icon> Kapat
     </ion-button>
-    <ion-button shape="round" color="light">
-      <ion-icon slot="start" name="trash"></ion-icon> Iptal
+    <ion-button shape="round" color="light" (click)="onCancel()">
+      <ion-icon slot="start" name="close"></ion-icon> Iptal
     </ion-button>
   </div>
 </div>
