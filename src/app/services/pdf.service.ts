@@ -109,7 +109,7 @@ export class PdfService {
   }
 
   setCurrentPageWithPageNumber(pageNumber: number) {
-    const page = pdfInfo.pages.find(p => p.pageNumber === pageNumber);
+    const page = this.activePages.find(p => p.pageNumber === pageNumber);
     if (!!page) {
       this.setCurrentPage(page);
     }
@@ -144,7 +144,7 @@ export class PdfService {
     return this.pages.asObservable();
   }
 
-  async setViewGroup(viewGroupName: ViewGroupName) {
+  async setViewGroupAndCurrentPage(viewGroupName: ViewGroupName) {
     const currentPage = this.currentPage.value;
     console.log(viewGroupName, currentPage);
 
