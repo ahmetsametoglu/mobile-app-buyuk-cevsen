@@ -3,7 +3,7 @@
     <name>Büyük Cevşen</name>
     <description>Büyük Cevşen ve Meali</description>
     <author email="yamansehzade@gmail.com" href="">Yaman Sehzade</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://localhost:8100" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -86,4 +86,5 @@
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
     </plugin>
     <engine name="android" spec="7.0.0" />
+    <allow-navigation href="http://localhost:8100" sessionid="91486d6b" />
 </widget>
