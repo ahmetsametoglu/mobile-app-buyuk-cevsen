@@ -2,7 +2,7 @@
   <div class="bookmark-item" *ngFor="let bookmark of bookmarks">
     <div class="header">
       <div class="bookmark-name">{{ bookmark.name }}</div>
-      <div class="page-number">{{ bookmark.pageNumber }}.sayfa</div>
+      <div class="page-number">{{ bookmark.pageNumber }}.sayfa da</div>
     </div>
     <div class="description">{{ bookmark.description }}</div>
     <div class="action-buttons">
@@ -10,7 +10,7 @@
         <ion-icon slot="start" name="navigate"></ion-icon> git
       </ion-button>
       <ion-button size="small" color="light" (click)="updateBookmark(bookmark)">
-        <ion-icon slot="start" name="refresh"></ion-icon> ayracı güncelle
+        <ion-icon slot="start" name="refresh"></ion-icon> güncelle
       </ion-button>
       <ion-button
         size="small"
