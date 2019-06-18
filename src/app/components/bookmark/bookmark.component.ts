@@ -43,8 +43,9 @@ export class BookmarkComponent implements OnInit, OnDestroy {
     }
   }
 
-  goToPage(bookmark: IBookmark) {
-    this.pdfService.setCurrentPageWithPageNumber(bookmark.pageNumber);
+  async goToPage(bookmark: IBookmark) {
+    await this.pdfService.setViewGroupAndCurrentPage(bookmark.viewGroup.name);
+    await this.pdfService.setCurrentPageWithPageNumber(bookmark.pageNumber);
     this.closeMenu.emit();
   }
 
@@ -54,15 +55,21 @@ export class BookmarkComponent implements OnInit, OnDestroy {
       .pipe(take(1))
       .toPromise();
 
+    const currentViewGroup = await this.pdfService
+      .getViewGroup()
+      .pipe(take(1))
+      .toPromise();
+
     this.showConfirmation(
       "Ayraç Güncelle",
       `${bookmark.name}`,
       `${currentPage.pageNumber}.sayfaya al`
     ).then(_ => {
-      const updatedBookmark = {
+      const updatedBookmark: IBookmark = {
         ...bookmark,
         pageNumber: currentPage.pageNumber,
-        description: currentPage.description
+        description: currentPage.description,
+        viewGroup: currentViewGroup
       };
 
       if (currentPage.pageNumber !== bookmark.pageNumber) {
@@ -83,6 +90,11 @@ export class BookmarkComponent implements OnInit, OnDestroy {
       .pipe(take(1))
       .toPromise();
 
+    const currentViewGroup = await this.pdfService
+      .getViewGroup()
+      .pipe(take(1))
+      .toPromise();
+
     const name = (await this.showInputAlert(
       `${currentPage.pageNumber}. sayfaya ayraç ekle `
     )) as string;
@@ -91,7 +103,8 @@ export class BookmarkComponent implements OnInit, OnDestroy {
       id: null,
       name,
       pageNumber: currentPage.pageNumber,
-      description: currentPage.description
+      description: currentPage.description,
+      viewGroup: currentViewGroup
     };
     this.bookmarkService.saveUpdateBookmark(bookmark);
   }
